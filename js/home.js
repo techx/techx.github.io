@@ -11,6 +11,7 @@ $(function() {
     });
 });
 
+
 $(function() {
     $(".staff-pic").hover(function(){
       $(this).find(".overlay").fadeIn('fast');
@@ -19,6 +20,7 @@ $(function() {
         $(this).find(".overlay").fadeOut('fast');
     });
 });
+
 
 $(function(){
     $('.tile').bind('click', function(event){
