@@ -122,6 +122,35 @@ nav.navbar.navbar-inverse {
 #team {
 	padding-top: 15vh;
 
+	.row {
+		padding: 5px 0;
+
+		.person {
+			display: inline;
+
+			img.square {
+				height: 150px;
+				padding: 0 5px;
+			}
+
+			.overlay{
+				height: 48px;
+				width: 150px;
+				position:absolute;
+				top: 38px;
+				left: 5px;
+				padding: 8px 5px;
+				background: $white;
+				color: $darkblue;
+				text-align: right;
+				font-weight: 500;
+				line-height: 1.2em;
+				opacity: 0.9;
+				z-index: 10;
+				display: none;
+			}
+		}
+	}
 }
 
 footer{
