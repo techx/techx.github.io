@@ -41,6 +41,7 @@ nav.navbar.navbar-inverse {
 		li>a {
 			padding: 25px 35px;
 			color: $grey;
+			cursor: pointer;
 		}
 
 		li>a:hover {
@@ -67,6 +68,7 @@ nav.navbar.navbar-inverse {
 	a.down {
 		position: absolute;
 		bottom: 10vh;
+		cursor: pointer;
 	}
 
 	.glyphicon {
@@ -75,9 +77,10 @@ nav.navbar.navbar-inverse {
 }
 
 .gradient {
+  height: calc(400vh + 90px);
+	height: -webkit-calc(400vh + 90px);
 	position: absolute;
 	top: 100vh;
-	height: 400vh;
 	width: 100vw;
 	background: linear-gradient(to bottom, $black 0%, $darkblue 100%);
 	background: -o-linear-gradient(top, $black 0%, $darkblue 100%);
@@ -118,4 +121,31 @@ nav.navbar.navbar-inverse {
 
 #team {
 	padding-top: 15vh;
+
+}
+
+footer{
+
+	.copyright {
+		padding: 20px;
+		font-size: 12px;
+		height: 50px;
+		color: $grey;
+
+		img {
+			width: 30px;
+			padding: 5px;
+			opacity: .25;
+			transition: all 300ms;
+			-ms-transition: all 300ms;
+			-webkit-transition: all 300ms;
+		}
+
+		img:hover {
+			opacity: 1;
+			transition: all 300ms;
+			-ms-transition: all 300ms;
+			-webkit-transition: all 300ms;
+		}
+	}
 }

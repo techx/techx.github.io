@@ -45,7 +45,8 @@ nav.navbar.navbar-inverse {
       color: #f2f6f9; }
     nav.navbar.navbar-inverse .navbar-nav li > a {
       padding: 25px 35px;
-      color: rgba(242, 246, 249, 0.25); }
+      color: rgba(242, 246, 249, 0.25);
+      cursor: pointer; }
     nav.navbar.navbar-inverse .navbar-nav li > a:hover {
       color: #f2f6f9; }
 
@@ -61,14 +62,16 @@ nav.navbar.navbar-inverse {
     font-size: 1.75em; }
   #main a.down {
     position: absolute;
-    bottom: 10vh; }
+    bottom: 10vh;
+    cursor: pointer; }
   #main .glyphicon {
     font-size: 1.75em; }
 
 .gradient {
+  height: calc(400vh + 90px);
+  height: -webkit-calc(400vh + 90px);
   position: absolute;
   top: 100vh;
-  height: 400vh;
   width: 100vw;
   background: linear-gradient(to bottom, #1d1d1d 0%, #204ea0 100%);
   background: -o-linear-gradient(top, #1d1d1d 0%, #204ea0 100%);
@@ -97,5 +100,23 @@ nav.navbar.navbar-inverse {
 
 #team {
   padding-top: 15vh; }
+
+footer .copyright {
+  padding: 20px;
+  font-size: 12px;
+  height: 50px;
+  color: rgba(242, 246, 249, 0.25); }
+  footer .copyright img {
+    width: 30px;
+    padding: 5px;
+    opacity: .25;
+    transition: all 300ms;
+    -ms-transition: all 300ms;
+    -webkit-transition: all 300ms; }
+  footer .copyright img:hover {
+    opacity: 1;
+    transition: all 300ms;
+    -ms-transition: all 300ms;
+    -webkit-transition: all 300ms; }
 
 /*# sourceMappingURL=style.css.map */
