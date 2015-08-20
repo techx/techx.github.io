@@ -4,11 +4,13 @@
 	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;}
-	.st2{font-family:'OpenSans-Light';}
-	.st3{font-size:81px;}
-	.st4{font-family:'OpenSans';}
+	.st1{enable-background:new    ;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'OpenSans-Light';}
+	.st4{font-size:81px;}
+	.st5{letter-spacing:2;}
+	.st6{font-family:'OpenSans';}
 </style>
 <rect id="XMLID_1_" class="st0" width="300" height="300"/>
-<text id="XMLID_3_" transform="matrix(1 0 0 1 53.8716 173.7302)"><tspan x="0" y="0" class="st1 st2 st3">proj</tspan><tspan x="145.5" y="0" class="st1 st4 st3">X</tspan></text>
+<text transform="matrix(1 0 0 1 48.8089 173.8095)" class="st1"><tspan x="0" y="0" class="st2 st3 st4 st5">proj</tspan><tspan x="153.6" y="0" class="st2 st6 st4 st5">X</tspan></text>
 </svg>
