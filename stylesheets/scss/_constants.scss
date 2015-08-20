@@ -14,6 +14,7 @@ $opensans: "Open Sans", sans-serif;
 
 a {
   color: $grey;
+  text-decoration: none;
   transition: all 300ms;
   -ms-transition: all 300ms;
   -webkit-transition: all 300ms;

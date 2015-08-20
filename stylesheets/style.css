@@ -5,6 +5,7 @@
 
 a {
   color: rgba(242, 246, 249, 0.25);
+  text-decoration: none;
   transition: all 300ms;
   -ms-transition: all 300ms;
   -webkit-transition: all 300ms; }
@@ -88,11 +89,12 @@ nav.navbar.navbar-inverse {
 
 #what {
   padding-top: 22vh; }
-  #what .row {
+  #what .line {
+    width: 100vw;
     padding: 10px 0; }
-    #what .row a {
+    #what .line a {
       padding: 10px; }
-      #what .row a img.square {
+      #what .line a img.square {
         height: 175px; }
 
 #committees {
@@ -100,14 +102,15 @@ nav.navbar.navbar-inverse {
 
 #team {
   padding-top: 15vh; }
-  #team .row {
+  #team .line {
+    width: 100vw;
     padding: 5px 0; }
-    #team .row .person {
+    #team .line .person {
       display: inline; }
-      #team .row .person img.square {
+      #team .line .person img.square {
         height: 150px;
-        padding: 0 5px; }
-      #team .row .person .overlay {
+        margin: 0 5px; }
+      #team .line .person .overlay {
         height: 48px;
         width: 150px;
         position: absolute;
