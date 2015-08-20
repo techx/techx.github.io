@@ -10,6 +10,7 @@ a {
 
 a:hover {
   color: #f2f6f9;
+  text-decoration: none;
   transition: all 300ms;
   -ms-transition: all 300ms;
   -webkit-transition: all 300ms; }
@@ -26,18 +27,13 @@ html, body {
     height: 100vh;
     width: 100vw;
     position: relative; }
-    html section a.down, body section a.down {
-      position: absolute;
-      bottom: 10vh; }
-    html section .glyphicon, body section .glyphicon {
-      font-size: 2em; }
   html div, body div {
     position: relative; }
 
 nav.navbar.navbar-inverse {
   background-color: #1d1d1d;
   border: none;
-  font-size: 1.75em; }
+  font-size: 1.5em; }
   nav.navbar.navbar-inverse .navbar-nav {
     float: none;
     display: inline-block;
@@ -45,9 +41,9 @@ nav.navbar.navbar-inverse {
     nav.navbar.navbar-inverse .navbar-nav a#blue {
       color: #5083bf; }
     nav.navbar.navbar-inverse .navbar-nav a#blue:hover {
-      color: #204ea0; }
+      color: #f2f6f9; }
     nav.navbar.navbar-inverse .navbar-nav li > a {
-      padding: 25px 40px;
+      padding: 25px 35px;
       color: rgba(242, 246, 249, 0.25); }
     nav.navbar.navbar-inverse .navbar-nav li > a:hover {
       color: #f2f6f9; }
@@ -61,12 +57,17 @@ nav.navbar.navbar-inverse {
   #main .subtitle {
     margin-top: 10px;
     color: #f2f6f9;
-    font-size: 2em; }
+    font-size: 1.75em; }
+  #main a.down {
+    position: absolute;
+    bottom: 10vh; }
+  #main .glyphicon {
+    font-size: 1.75em; }
 
 .gradient {
   position: absolute;
   top: 100vh;
-  height: 1000vh;
+  height: 400vh;
   width: 100vw;
   background: linear-gradient(to bottom, #1d1d1d 0%, #204ea0 100%);
   background: -o-linear-gradient(top, #1d1d1d 0%, #204ea0 100%);
@@ -83,11 +84,13 @@ nav.navbar.navbar-inverse {
     font-size: 1.25em; }
 
 #what {
-  padding-top: 25vh; }
+  padding-top: 23vh; }
   #what .row {
     padding: 10px 0; }
     #what .row a {
       padding: 10px; }
+      #what .row a img.square {
+        height: 175px; }
 
 #committees {
   padding-top: 15vh; }
