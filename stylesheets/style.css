@@ -1,6 +1,7 @@
 .title {
   color: #f2f6f9;
-  font-size: 3em; }
+  font-size: 3em;
+  margin-bottom: 25px; }
 
 a {
   color: rgba(242, 246, 249, 0.25);
@@ -78,13 +79,12 @@ nav.navbar.navbar-inverse {
 #who {
   padding: 40vh 0; }
   #who .content {
-    margin-top: 10px;
     padding: 0 15vw;
     color: #f2f6f9;
     font-size: 1.25em; }
 
 #what {
-  padding-top: 23vh; }
+  padding-top: 22vh; }
   #what .row {
     padding: 10px 0; }
     #what .row a {
@@ -96,6 +96,6 @@ nav.navbar.navbar-inverse {
   padding-top: 15vh; }
 
 #team {
-  padding-top: 25vh; }
+  padding-top: 15vh; }
 
 /*# sourceMappingURL=style.css.map */
