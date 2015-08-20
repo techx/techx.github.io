@@ -1,0 +1,118 @@
+@import '_constants';
+
+html, body {
+	height: 100vh;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: $opensans;
+	font-weight: 300;
+
+	section {
+		height: 100vh;
+		width: 100vw;
+		position: relative;
+
+		a.down {
+			position: absolute;
+			bottom: 10vh;
+		}
+
+		.glyphicon {
+			font-size: 2em;
+		}
+	}
+
+	div {
+		position: relative;
+	}
+}
+
+nav.navbar.navbar-inverse {
+	background-color: $black;
+	border: none;
+	font-size: 1.75em;
+
+	.navbar-nav {
+		float: none;
+		display: inline-block;
+		margin-bottom: -8px;
+
+		a#blue {
+			color: $blue;
+		}
+
+		a#blue:hover {
+			color: $darkblue;
+		}
+
+		li>a {
+			padding: 25px 40px;
+			color: $grey;
+		}
+
+		li>a:hover {
+			color: $white;
+		}
+	}
+}
+
+#main {
+	text-align: center;
+	padding-top: 35vh;
+	background: $black;
+	
+	.logo {
+		height: 10em;
+	}
+
+	.subtitle {
+		margin-top: 10px;
+		color: $white;
+		font-size: 2em;
+	}
+}
+
+.gradient {
+	position: absolute;
+	top: 100vh;
+	height: 1000vh;
+	width: 100vw;
+	background: linear-gradient(to bottom, $black 0%, $darkblue 100%);
+	background: -o-linear-gradient(top, $black 0%, $darkblue 100%);
+	background: -ms-linear-gradient(top, $black 0%, $darkblue 100%);
+	background: -moz-linear-gradient(top, $black 0%, $darkblue 100%);
+	background: -webkit-linear-gradient(top, $black 0%, $darkblue 100%);
+}
+
+#who {
+	padding: 40vh 0;
+
+	.content {
+		margin-top: 10px;
+		padding: 0 15vw;
+		color: $white;
+		font-size: 1.25em;
+	}
+}
+
+#what {
+	padding-top: 25vh;
+
+	.row {
+		padding: 10px 0;
+
+		a {
+			padding: 10px;
+		}
+	}
+}
+
+#committees {
+	padding-top: 15vh;
+}
+
+#team {
+	padding-top: 25vh;
+}

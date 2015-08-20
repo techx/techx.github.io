@@ -1,302 +1,98 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head lang="en">
 	<title>MIT TechX</title>
-	<link rel="icon" type="image/png" href="./img/favicon.png">
-	<link href="//cdn.jsdelivr.net/jquery.magnific-popup/0.9.3/magnific-popup.css" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,500italic,400italic,300italic,100italic,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/home.css" />
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.min.js">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-
-	<!-- FRONT SECTION -->
-	<div class="section-front">
-		<div class="nav">
-			<ul>
-				<li><a href="#section-who">WHO</a></li>
-				<li><a href="#section-what">WHAT</a></li>
-				<li><a href="#section-team">TEAM</a></li>
-				<li><a href="#section-join">COMMITTEES</a></li>
-			</ul>
-		</div>
-		<div class ="component-logo">
-			<img src="./img/logo-light-shadow-250x100.png" />
-		</div>
-
-	</div>
-
-	<!-- WHO SECTION -->
-	<div class="section-who" id="section-who">
-		<div class ="component-title">
-			who we are</div>
-		<div class="component-content">
-			<p class="info">we are a student-run organization that aims to <span>empower</span> MIT students by bringing cutting-edge technology, new ideas, and top tech-innovators to campus.</p>
-			<p class="subinfo">Led by an exec team, we are split into 8 committees and throw events that include: <a href="http://www.techfair.mit.edu" target="_blank">TechFair</a>, the annual career fair and expo;<a href="http://www.hackmit.org" target="_blank"> HackMIT</a>, MIT's premier hackathon; <a href="" target="_blank">TechTalks</a>, a chance for industry leaders to share the latest tech with the MIT community; <a href="http://blueprint.hackmit.org">Blueprint</a>, a learnathon and hackathon for high school students; and <a href="http://www.makemit.org" target="_blank">MakeMIT</a>, MIT's largest hardware hackathon.</p>
-		</div>
-
-	</div>
-
-	<!-- WHAT SECTION -->
-	<div class="section-what" id="section-what">
-		<div class ="component-title">what we do</div>
-
-		<div class="what-row">
-			<div class="what-pic"><a href="http://techfair.mit.edu/" target="_blank"> <img src="./img/techfair.png" ></a></div>
-			<div class="what-pic"><a href="http://hackmit.org/" target="_blank"> <img src="./img/hackmit2.png"></a></div>
-			<div class="what-pic"><a href="http://blueprint.hackmit.org/"><img src="./img/blueprint1.jpg" width="150px"></a></div>
-		</div>
-
-		<div class="what-row">
-			<div class="what-pic"><a href="sr.html"> <img src="./img/sr.png" onmouseover="this.src='./img/sr-soon.png'" onmouseout="this.src='./img/sr.png'"></a></div>
-			<div class="what-pic"><a href="http://makemit.org/"> <img src="./img/makemit.png" width="150px"></a></div>
-			<div class="what-pic"><a href="http://think.mit.edu/" target="_blank"> <img src="./img/think.png"></a></div>
-		</div>
-
-	</div>
-
-	<!-- TEAM SECTION -->
-	<div class="section-team" id="section-team">
-		<div class ="component-title">the team</div>
-
-		<div class ="component-content">
-			<div class="staff-row">
-				<div class="staff-pic"><img src="./img/team/jason.jpg" onmouseover="this.src='./img/team/jason-silly.jpg'" onmouseout="this.src='./img/team/jason.jpg'" name = "jason" />
-					<div class="overlay">
-						jason ma
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> managing director</span>
-
-					</div>
-				</div>
-				<div class="staff-pic"><img src="./img/team/jenn.jpg" onmouseover="this.src='./img/team/jenn-silly.jpg'" onmouseout="this.src='./img/team/jenn.jpg'" name = "jenn" />
-					<div class="overlay">
-						jennifer yu
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> assistant director</span>
-
-					</div>
-				</div>
-				<div class="staff-pic"><img src="./img/team/sina.png" onmouseover="this.src='./img/team/sina-silly.png'" onmouseout="this.src='./img/team/sina.png'" name = "sina" />
-					<div class="overlay">
-						sina booeshaghi
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> corporate relations</span>
-
-					</div>
-				</div>
-				<div class="staff-pic"><img src="./img/team/andreea.png" onmouseover="this.src='./img/team/andreea-silly.png'" onmouseout="this.src='./img/team/andreea.png'" name = "andreea" />
-					<div class="overlay">
-						andreea martin
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> finance &amp; ir director</span>
-
-					</div>
-				</div>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 			</div>
-			<div class="staff-row">
-				<div class="staff-pic"><img src="./img/team/margaret.png" onmouseover="this.src='./img/team/margaret-silly.png'" onmouseout="this.src='./img/team/margaret.png'" name = "margaret" />
-					<div class="overlay">
-						margaret tian
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> logistics </span>
 
-					</div>
-				</div>
-				<div class="staff-pic"><img src="./img/team/ben.png" onmouseover="this.src='./img/team/ben-silly.png'" onmouseout="this.src='./img/team/ben.png'" name = "ben" />
-					<div class="overlay">
-						ben reynolds
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> student relations</span>
-
-					</div>
-				</div>
-				<div class="staff-pic"><img src="./img/team/larry.png" onmouseover="this.src='./img/team/larry-silly.png'" onmouseout="this.src='./img/team/larry.png'" name = "larry" />
-					<div class="overlay">
-						larry zhang
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> marketing director</span>
-
-					</div>
-				</div>
-				<div class="staff-pic"><img src="./img/team/q.png" onmouseover="this.src='./img/team/q.png'" onmouseout="this.src='./img/team/q.png'" name = "think" />
-					<div class="overlay">
-						archis bhandarkar
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> think </span>
-
-					</div>
-				</div>
-			</div>
-			<div class="staff-row">
-				<div class="staff-pic"><img src="./img/team/elizabeth.png" onmouseover="this.src='./img/team/elizabeth-silly.png'" onmouseout="this.src='./img/team/elizabeth.png'" name = "elizabeth" />
-					<div class="overlay">
-						elizabeth bianchini
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> makemit </span>
-
-					</div>
-				</div>
-				<div class="staff-pic"><img src="./img/team/jenny.jpg" onmouseover="this.src='./img/team/jenny-silly.png'" onmouseout="this.src='./img/team/jenny.jpg'" name = "jenny" />
-					<div class="overlay">
-						jennifer zhang
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> hackmit </span>
-
-					</div>
-				</div>
-				<div class="staff-pic"><img src="./img/team/kimberli.png" onmouseover="this.src='./img/team/kimberli-silly.png'" onmouseout="this.src='./img/team/kimberli.png'" name = "katie" />
-					<div class="overlay">
-						kimberli zhong
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> hackmit </span>
-					</div>
-				</div>
-				<div class="staff-pic"><img src="./img/team/jack.png" onmouseover="this.src='./img/team/jack-silly.png'" onmouseout="this.src='./img/team/jack.png'" name = "jack" />
-					<div class="overlay">
-						jack serrino
-						<br/>
-						<span style="font-weight:300; font-size: 14px"> devops</span>
-
-					</div>
-				</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#who">WHO</a></li>
+					<li><a href="#what">WHAT</a></li>
+					<li><a href="#committees">COMMITTEES</a></li>
+					<li><a href="#team">TEAM</a></li>
+					<li><a id="blue" href="#">APPLY</a></li>
+				</ul>
 			</div>
 		</div>
+	</nav>
 
-	</div>
-
-	<!-- JOIN SECTION -->
-	<div class="section-join" id="section-join">
-		<div class ="component-title">committees</div>
-		<div class ="component-content">
-			<div class="join-blurb">
-				<span style="font-weight:500">Want to get involved?</span> <br/>Check out our committees below! We’re usually look for new members in the Fall, so stay tuned.
-			</div>
-<!-- 			<div class="apply-blurb">
-				<span style="font-weight:500">Apply now at <a href="apply.html">techx.mit.edu/apply</a>!</span> <br/>Applications are due on <b>Thursday, September 11 at midnight</b>. Interviews for selected applicants will take place on <b>Saturday, September 13</b>.
-			</div>
-			<div class="apply-blurb">
-				<span style="font-weight:500">Info Sessions</span> <br/>Come listen to what events and programs we organize as well as each of our committees on <b>Monday, September 8 from 5:30-6:30 in 3-442</b> and <b>Tuesday, September 9 from 8:00-9:00 in 5-217</b>.
-			</div> -->
-			<table class="committee">
-				<tr>
-					<td id="cr" >
-						<div class="tile">
-							<img src="./img/join/cr.png"/>
-						</div>
-						<div class="committee-content" style="font-size:12px;">
-							The Corporate Relations team seeks out and communicates with companies to bring their hottest new tech to Techfair, a career fair and technology exposition. If you love discovering new tech and want to develop your communication and negotiation skills, we'd love to have you apply!
-						</div>
-					</td>
-					<td>
-						<div class="tile">
-							<img src="./img/join/sr.png"/>
-						</div>
-						<div class="committee-content" style="font-size:12px;">
-							The Student Relations team funds and coordinates student projects to display at Techfair. If you enjoy meeting people with the brightest ideas, this is the committee for you! Interested students with good communication skills and an interest in the maker community are encouraged to apply.
-						</div>
-
-					</td>
-					<td>
-						<div class="tile">
-							<img src="./img/join/marketing.png"/>
-						</div>
-						<div class="committee-content" style="font-size:12px;">
-							The Marketing team is the creative direction behind TechX - we design and deploy all branding and advertising. We're looking for [designers - no experience required, social media junkies, people interested in publicity positions], that are [organized, willing to learn, innovative].
-						</div>
-					</td>
-					<td>
-						<div class="tile">
-							<img src="./img/join/logistics.png"/>
-						</div>
-						<div class="committee-content" style="font-size:12px;">
-							The Logistics committee handles all the behind the scenes planning during the months leading up to the fair as well as the day of the fair. If you enjoy planning events, and are looking to develop your collaborative, management, and organizational skills, apply!
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="tile">
-							<img src="./img/join/think.png"/>
-						</div>
-						<div class="committee-content" style="font-size:12px;">
-							The THINK Scholars Program is an educational outreach initiative that promotes STEM by supporting and funding projects developed by high school students. We are looking for passionate individuals to help us expand our reach and make a bigger impact this year!
-						</div>
-					</td>
-					<!-- <td>
-						<div class="tile">
-							<img src="./img/join/techtalks.png"/>
-						</div>
-						<div class="committee-content" style="font-size:12px;">
-							Inspire the MIT community by having leaders in tech share their vision of the future. Help us bring amazing speakers to the student body!
-						</div>
-					</td> -->
-					<td>
-						<div class="tile">
-							<img src="./img/join/hardware.png"/>
-						</div>
-						<div class="committee-content" style="font-size:12px;">
-							MakeMIT organizes one of the largest hardware hackathons, bringing together hundreds of makers and designers to our event. We are looking for those passionate in helping bring an innovative and collaborative environment to makers and hackers around the area!
-						</div>
-					</td>
-					<td>
-						<div class="tile">
-							<img src="./img/join/hackmit.png"/>
-						</div>
-						<div class="committee-content" style="font-size:12px;">
-							As the HackMIT team, our mission is to push the forefront of innovation by providing opportunities for students to work in a high-energy, collaborative environment. We put on HackMIT, the largest hackathon at MIT, and Blueprint, a high school hackathon.
-						</div>
-					</td>
-					<td>
-						<div class="tile">
-							<img src="./img/join/devops.png"/>
-						</div>
-						<div class="committee-content" style="font-size:10px;">
-							With projects ranging from behind-the-scenes, mission-critical web software to public-facing marketing campaigns, DevOps allows you to contribute to TechX while developing your programming chops. Students with coding experience are encouraged to apply for a dev position!
-						</div>
-					</td>
-					<!-- <td>
-						<div class="tile">
-							<img src="./img/join/finance.png"/>
-						</div>
-						<div class="committee-content" style="font-size:12px;">
-							The Finance committee plays an important role in ensuring that all our events have adaquete funding. If you're fiscally responsible and extremely organized, this is the committee for you!
-						</div>
-					</td> -->
-				</tr>
-			</table>
-			<br/>
-
+	<section id="main">
+		<img class="logo" src="img/logo.svg"
+				 onerror="this.onerror=null; this.src='img/logo.png'"/>
+		<div class="subtitle">
+			empowering students through technology
 		</div>
-	</div>
+	  <a class="down" href="#who"><span class="glyphicon glyphicon-chevron-down"></span></a>
+	</section>
 
-</body>
+	<div class="gradient"></div>
 
-<footer>
-	<div class="copyright">
-		<a href="https://twitter.com/MITtechx" target="_blank"><img src="./img/twitter.png"/></a>
-		<a href="https://www.facebook.com/MITTechX" target="_blank"><img src="./img/facebook.png"/></a>
-		<br/>
-		© MIT TechX 2015
-	</div>
-</footer>
-<script type="text/javascript" src="js/jquery.simplemodal-1.4.4.js"></script>
-<script type="text/javascript" src="js/flip.min.js"></script>
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-<script type="text/javascript" src="js/home.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<section id="who">
+		<div class="title">
+			WHO WE ARE
+		</div>
+		<div class="content">
+			We are a student-run organization that aims to <b>empower</b> MIT students by bringing cutting-edge technology, new ideas, and top tech-innovators to campus.
+		</div>
+		<a class="down" href="#what"><span class="glyphicon glyphicon-chevron-down"></span></a>
+	</section>
 
-  ga('create', 'UA-42593701-3', 'mit.edu');
-  ga('send', 'pageview');
+	<section id="what">
+		<div class="title">WHAT WE DO</div>
+			<div class="row">
+				<a href="http://hackmit.org/" target="_blank">
+					<img class="square" src="img/hackmit.png">
+				</a>
+				<a href="http://xfair.mit.edu/" target="_blank">
+					<img class="square" src="img/hackmit.png">
+				</a>
+				<a href="http://makemit.org/" target="_blank">
+					<img class="square" src="img/hackmit.png">
+				</a>
+			</div>
+			<div class="row">
+				<a href="http://blueprint.hackmit.org/" target="_blank">
+					<img class="square" src="img/hackmit.png">
+				</a>
+				<a href="#" target="_blank">
+					<img class="square" src="img/hackmit.png">
+				</a>
+				<a href="http://think.mit.edu/" target="_blank">
+					<img class="square" src="img/hackmit.png">
+				</a>
+			</div>
+		</div>
+		<a class="down" href="#committees"><span class="glyphicon glyphicon-chevron-down"></span></a>
+	</section>
 
-</script>
+	<section id="committees">
+		<div class="title">COMMITTEES</div>
+		<a class="down" href="#team"><span class="glyphicon glyphicon-chevron-down"></span></a>
+	</section>
+
+	<section id="team">
+		<div class="title">TEAM</div>
+	</section>
 
 </html>

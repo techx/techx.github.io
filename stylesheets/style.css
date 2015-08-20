@@ -1,0 +1,98 @@
+.title {
+  color: #f2f6f9;
+  font-size: 3em; }
+
+a {
+  color: rgba(242, 246, 249, 0.25);
+  transition: all 300ms;
+  -ms-transition: all 300ms;
+  -webkit-transition: all 300ms; }
+
+a:hover {
+  color: #f2f6f9;
+  transition: all 300ms;
+  -ms-transition: all 300ms;
+  -webkit-transition: all 300ms; }
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300; }
+  html section, body section {
+    height: 100vh;
+    width: 100vw;
+    position: relative; }
+    html section a.down, body section a.down {
+      position: absolute;
+      bottom: 10vh; }
+    html section .glyphicon, body section .glyphicon {
+      font-size: 2em; }
+  html div, body div {
+    position: relative; }
+
+nav.navbar.navbar-inverse {
+  background-color: #1d1d1d;
+  border: none;
+  font-size: 1.75em; }
+  nav.navbar.navbar-inverse .navbar-nav {
+    float: none;
+    display: inline-block;
+    margin-bottom: -8px; }
+    nav.navbar.navbar-inverse .navbar-nav a#blue {
+      color: #5083bf; }
+    nav.navbar.navbar-inverse .navbar-nav a#blue:hover {
+      color: #204ea0; }
+    nav.navbar.navbar-inverse .navbar-nav li > a {
+      padding: 25px 40px;
+      color: rgba(242, 246, 249, 0.25); }
+    nav.navbar.navbar-inverse .navbar-nav li > a:hover {
+      color: #f2f6f9; }
+
+#main {
+  text-align: center;
+  padding-top: 35vh;
+  background: #1d1d1d; }
+  #main .logo {
+    height: 10em; }
+  #main .subtitle {
+    margin-top: 10px;
+    color: #f2f6f9;
+    font-size: 2em; }
+
+.gradient {
+  position: absolute;
+  top: 100vh;
+  height: 1000vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #1d1d1d 0%, #204ea0 100%);
+  background: -o-linear-gradient(top, #1d1d1d 0%, #204ea0 100%);
+  background: -ms-linear-gradient(top, #1d1d1d 0%, #204ea0 100%);
+  background: -moz-linear-gradient(top, #1d1d1d 0%, #204ea0 100%);
+  background: -webkit-linear-gradient(top, #1d1d1d 0%, #204ea0 100%); }
+
+#who {
+  padding: 40vh 0; }
+  #who .content {
+    margin-top: 10px;
+    padding: 0 15vw;
+    color: #f2f6f9;
+    font-size: 1.25em; }
+
+#what {
+  padding-top: 25vh; }
+  #what .row {
+    padding: 10px 0; }
+    #what .row a {
+      padding: 10px; }
+
+#committees {
+  padding-top: 15vh; }
+
+#team {
+  padding-top: 25vh; }
+
+/*# sourceMappingURL=style.css.map */

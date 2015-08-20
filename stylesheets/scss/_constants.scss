@@ -1,0 +1,26 @@
+$black: rgba(29,29,29,1);
+$blue: rgba(80,131,191,1);
+$darkblue: rgba(32,78,160,1);
+$white: rgba(242,246,249,1);
+$grey: rgba(242,246,249,.25);
+
+$opensans: "Open Sans", sans-serif;
+
+.title {
+  color: $white;
+  font-size: 3em;
+}
+
+a {
+  color: $grey;
+  transition: all 300ms;
+  -ms-transition: all 300ms;
+  -webkit-transition: all 300ms;
+}
+
+a:hover {
+  color: $white;
+  transition: all 300ms;
+  -ms-transition: all 300ms;
+  -webkit-transition: all 300ms;
+}
