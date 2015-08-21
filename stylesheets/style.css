@@ -32,10 +32,14 @@ html, body {
   html div, body div {
     position: relative; }
 
+body {
+  background: #1d1d1d; }
+
 nav.navbar.navbar-inverse {
   background-color: #1d1d1d;
   border: none;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  border-bottom: 1px solid #5083bf; }
   nav.navbar.navbar-inverse .navbar-nav {
     float: none;
     display: inline-block;
@@ -53,8 +57,7 @@ nav.navbar.navbar-inverse {
 
 #main {
   text-align: center;
-  padding-top: 35vh;
-  background: #1d1d1d; }
+  padding-top: 35vh; }
   #main .logo {
     height: 10em; }
   #main .subtitle {
@@ -127,9 +130,8 @@ nav.navbar.navbar-inverse {
         display: none; }
 
 footer .copyright {
-  padding: 20px;
   font-size: 12px;
-  height: 50px;
+  height: 70px;
   color: rgba(242, 246, 249, 0.25); }
   footer .copyright img {
     width: 30px;

@@ -20,10 +20,15 @@ html, body {
 	}
 }
 
+body {
+	background: $black;
+}
+
 nav.navbar.navbar-inverse {
 	background-color: $black;
 	border: none;
 	font-size: 1.5em;
+	border-bottom: 1px solid $blue;
 
 	.navbar-nav {
 		float: none;
@@ -53,7 +58,6 @@ nav.navbar.navbar-inverse {
 #main {
 	text-align: center;
 	padding-top: 35vh;
-	background: $black;
 	
 	.logo {
 		height: 10em;
@@ -158,9 +162,8 @@ nav.navbar.navbar-inverse {
 footer{
 
 	.copyright {
-		padding: 20px;
 		font-size: 12px;
-		height: 50px;
+		height: 70px;
 		color: $grey;
 
 		img {
