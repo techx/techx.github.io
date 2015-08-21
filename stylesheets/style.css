@@ -38,8 +38,7 @@ body {
 nav.navbar.navbar-inverse {
   background-color: #1d1d1d;
   border: none;
-  font-size: 1.5em;
-  border-bottom: 1px solid #5083bf; }
+  font-size: 1.5em; }
   nav.navbar.navbar-inverse .navbar-nav {
     float: none;
     display: inline-block;
