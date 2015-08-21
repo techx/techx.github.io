@@ -45,7 +45,7 @@ nav.navbar.navbar-inverse {
     nav.navbar.navbar-inverse .navbar-nav a#blue:hover {
       color: #f2f6f9; }
     nav.navbar.navbar-inverse .navbar-nav li > a {
-      padding: 25px 35px;
+      padding: 25px;
       color: rgba(242, 246, 249, 0.25);
       cursor: pointer; }
     nav.navbar.navbar-inverse .navbar-nav li > a:hover {
