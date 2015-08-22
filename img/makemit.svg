@@ -7,27 +7,29 @@
 	.st1{fill:#EAB259;}
 	.st2{fill:none;stroke:#FFFFFF;stroke-width:40;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
-	.st4{fill:#FFFFFF;}
-	.st5{font-family:'Montserrat-Bold';}
-	.st6{font-size:286.0961px;}
-	.st7{fill:none;stroke:#FFFFFF;stroke-width:11;stroke-miterlimit:10;}
+	.st4{enable-background:new    ;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:11;stroke-miterlimit:10;}
 </style>
-<rect x="351" y="-349" class="st0" width="999" height="999"/>
-<path class="st1" d="M1108.2-30.6"/>
-<path class="st1" d="M643.6-30.8"/>
+<rect x="350.5" y="-349.5" class="st0" width="999" height="999"/>
+<path class="st1" d="M1107.7-31.1"/>
+<path class="st1" d="M643.1-31.3"/>
 <g>
-	<path class="st2" d="M674.4,396.5C559.6,281.7,559.6,95.7,674.3-19C789-133.8,975-133.7,1089.8-18.9
-		c114.8,114.8,114.9,300.8,0.1,415.5C975.2,511.4,789.2,511.3,674.4,396.5z"/>
+	<path class="st2" d="M673.9,396C559.1,281.2,559.1,95.2,673.8-19.5c114.7-114.8,300.7-114.7,415.5,0.1s114.9,300.8,0.1,415.5
+		C974.7,510.9,788.7,510.8,673.9,396z"/>
 </g>
 <g>
-	<path class="st3" d="M658.7,412.3c-123.4-123.4-123.4-323.5,0-447c123.4-123.4,323.5-123.4,447,0"/>
+	<path class="st3" d="M658.2,411.8c-123.4-123.4-123.4-323.5,0-447c123.4-123.4,323.5-123.4,447,0"/>
 </g>
-<text transform="matrix(1 0 0 1 751.4376 286.5889)" class="st4 st5 st6">M</text>
-<path class="st7" d="M1120.2-45.1"/>
-<path class="st7" d="M655.5-45.3"/>
-<polygon class="st4" points="1089.8,-18.9 1027.5,-81.3 1118.5,-138.1 1163.8,-92.9 "/>
-<polygon class="st4" points="614.5,336.6 674.4,396.5 600.5,470.5 557.6,427.7 "/>
-<polygon class="st4" points="589.6,103.6 589.6,279.9 485,255.8 485,127.8 "/>
-<polygon class="st4" points="736.7,-78.8 612,45.9 555.2,-45.1 645.7,-135.7 "/>
-<polygon class="st4" points="969.8,-103.7 793.4,-103.7 817.6,-208.3 945.6,-208.3 "/>
+<g class="st4">
+	<path class="st5" d="M946.1,286.1l-0.3-130.2l-48.1,110.1h-33.2l-48.1-110.1v130.2H771V85.5h55.8l54.4,119.3l54.4-119.3H991v200.6
+		H946.1z"/>
+</g>
+<path class="st6" d="M1119.7-45.6"/>
+<path class="st6" d="M655-45.8"/>
+<polygon class="st5" points="1089.3,-19.4 1027,-81.8 1118,-138.6 1163.3,-93.4 "/>
+<polygon class="st5" points="614,336.1 673.9,396 600,470 557.1,427.2 "/>
+<polygon class="st5" points="589.1,103.1 589.1,279.4 484.5,255.3 484.5,127.3 "/>
+<polygon class="st5" points="736.2,-79.3 611.5,45.4 554.7,-45.6 645.2,-136.2 "/>
+<polygon class="st5" points="969.3,-104.2 792.9,-104.2 817.1,-208.8 945.1,-208.8 "/>
 </svg>
