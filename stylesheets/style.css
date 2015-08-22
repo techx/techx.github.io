@@ -115,14 +115,25 @@ nav.navbar.navbar-inverse {
       margin-bottom: 3em; }
     #committees .right .directors {
       font-size: 1.25em; }
-      #committees .right .directors .square {
-        width: 150px;
-        margin: 10px 10px 0 0; }
-      #committees .right .directors .director-name {
-        width: 150px;
-        margin: 5px 10px 0 0;
-        text-align: center;
-        display: inline-block; }
+      #committees .right .directors .person {
+        display: inline; }
+        #committees .right .directors .person img.square {
+          height: 150px;
+          margin: 10px 10px 0 0; }
+        #committees .right .directors .person .overlay {
+          height: 32px;
+          width: 150px;
+          position: absolute;
+          top: 94px;
+          padding: 5px 5px;
+          background: #f2f6f9;
+          color: #204ea0;
+          text-align: center;
+          font-weight: 500;
+          line-height: 1.2em;
+          opacity: 0.9;
+          z-index: 10;
+          display: none; }
 
 #team {
   padding-top: 18vh; }

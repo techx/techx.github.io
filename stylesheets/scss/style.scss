@@ -148,16 +148,29 @@ nav.navbar.navbar-inverse {
 		.directors {
 			font-size: 1.25em;
 
-			.square {
-				width: 150px;
-				margin: 10px 10px 0 0;
-			}
+			.person {
+			display: inline;
 
-			.director-name {
-				width: 150px;
-				margin: 5px 10px 0 0;
-				text-align: center;
-				display: inline-block;
+				img.square {
+					height: 150px;
+					margin: 10px 10px 0 0;
+				}
+
+				.overlay{
+					height: 32px;
+					width: 150px;
+					position: absolute;
+					top: 94px;
+					padding: 5px 5px;
+					background: $white;
+					color: $darkblue;
+					text-align: center;
+					font-weight: 500;
+					line-height: 1.2em;
+					opacity: 0.9;
+					z-index: 10;
+					display: none;
+				}
 			}
 		}
 	}
