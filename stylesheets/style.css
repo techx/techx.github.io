@@ -93,13 +93,18 @@ nav.navbar.navbar-inverse {
     width: 40vw;
     color: #f2f6f9;
     text-align: right;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    display: inline-block; }
     #committees .left ul {
       list-style-type: none;
       cursor: pointer;
       line-height: 1.75em; }
       #committees .left ul li:hover {
         color: #5083bf; }
+  #committees .right {
+    width: -webkit-calc(60vw - 30px);
+    width: calc(60vw - 30px);
+    display: inline-block; }
 
 #team {
   padding-top: 15vh; }
