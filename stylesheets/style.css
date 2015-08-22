@@ -102,6 +102,8 @@ nav.navbar.navbar-inverse {
       line-height: 1.75em; }
       #committees .left ul li:hover {
         color: #5083bf; }
+      #committees .left ul #break {
+        margin-bottom: 1em; }
   #committees .right {
     width: 45vw;
     color: #f2f6f9;
