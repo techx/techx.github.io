@@ -80,19 +80,6 @@ nav.navbar.navbar-inverse {
 	}
 }
 
-.gradient {
-  height: calc(400vh + 90px);
-	height: -webkit-calc(400vh + 90px);
-	position: absolute;
-	top: 100vh;
-	width: 100vw;
-	background: linear-gradient(to bottom, $black 0%, $darkblue 100%);
-	background: -o-linear-gradient(top, $black 0%, $darkblue 100%);
-	background: -ms-linear-gradient(top, $black 0%, $darkblue 100%);
-	background: -moz-linear-gradient(top, $black 0%, $darkblue 100%);
-	background: -webkit-linear-gradient(top, $black 0%, $darkblue 100%);
-}
-
 #who {
 	padding: 40vh 0;
 
