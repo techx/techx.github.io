@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	var $bodytag = $('html, body');
-	var $tags = $('#goto-who, #goto-what, #goto-committees, #goto-team');
+	var $tags = $('#goto-who, #goto-what, #goto-committees');
 	$tags.click(function(e) {
 		var elementName = e.target.id.substr(5);
 		console.log(e);
@@ -24,7 +24,7 @@ $(document).ready(function() {
 	});
 
 	var startPos = 0
-		, endPos = 4*$(window).height()
+		, endPos = 3*$(window).height()
 		, startColor = [29,29,29]
 		, endColor = [32,78,160]
 		, diffColor = [endColor[0] - startColor[0], endColor[1] - startColor[1], endColor[2] - startColor[2]];
