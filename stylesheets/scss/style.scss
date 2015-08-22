@@ -191,7 +191,7 @@ nav.navbar.navbar-inverse {
 					}
 
 					.overlay{
-						height: 32px;
+						height: 30px;
 						width: 150px;
 						position: absolute;
 						top: 94px;
@@ -200,7 +200,7 @@ nav.navbar.navbar-inverse {
 						color: $darkblue;
 						text-align: center;
 						font-weight: 400;
-						line-height: 1.2em;
+						font-size: .8em;
 						opacity: 0.9;
 						z-index: 10;
 						display: none;
