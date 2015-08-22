@@ -91,7 +91,7 @@ nav.navbar.navbar-inverse {
 }
 
 #what {
-	padding-top: 22vh;
+	padding-top: 20vh;
 
 	.line {
 		width: 100vw;
@@ -207,66 +207,6 @@ nav.navbar.navbar-inverse {
 					}
 				}
 			}
-		}
-	}
-}
-
-#team {
-	padding-top: 18vh;
-
-	.line {
-		width: 100vw;
-		padding: 5px 0;
-
-		.person {
-			display: inline;
-
-			img.square {
-				height: 150px;
-				margin: 0 5px;
-			}
-
-			.overlay{
-				height: 48px;
-				width: 150px;
-				position:absolute;
-				top: 38px;
-				left: 5px;
-				padding: 8px 5px;
-				background: $white;
-				color: $darkblue;
-				text-align: right;
-				font-weight: 500;
-				line-height: 1.2em;
-				opacity: 0.9;
-				z-index: 10;
-				display: none;
-			}
-		}
-	}
-}
-
-footer{
-
-	.copyright {
-		font-size: 12px;
-		height: 70px;
-		color: $grey;
-
-		img {
-			width: 30px;
-			padding: 5px;
-			opacity: .25;
-			transition: all 300ms;
-			-ms-transition: all 300ms;
-			-webkit-transition: all 300ms;
-		}
-
-		img:hover {
-			opacity: 1;
-			transition: all 300ms;
-			-ms-transition: all 300ms;
-			-webkit-transition: all 300ms;
 		}
 	}
 }

@@ -78,7 +78,7 @@ nav.navbar.navbar-inverse {
     font-size: 1.25em; }
 
 #what {
-  padding-top: 22vh; }
+  padding-top: 20vh; }
   #what .line {
     width: 100vw;
     padding: 10px 0; }
@@ -152,48 +152,5 @@ nav.navbar.navbar-inverse {
           opacity: 0.9;
           z-index: 10;
           display: none; }
-
-#team {
-  padding-top: 18vh; }
-  #team .line {
-    width: 100vw;
-    padding: 5px 0; }
-    #team .line .person {
-      display: inline; }
-      #team .line .person img.square {
-        height: 150px;
-        margin: 0 5px; }
-      #team .line .person .overlay {
-        height: 48px;
-        width: 150px;
-        position: absolute;
-        top: 38px;
-        left: 5px;
-        padding: 8px 5px;
-        background: #f2f6f9;
-        color: #204ea0;
-        text-align: right;
-        font-weight: 500;
-        line-height: 1.2em;
-        opacity: 0.9;
-        z-index: 10;
-        display: none; }
-
-footer .copyright {
-  font-size: 12px;
-  height: 70px;
-  color: rgba(242, 246, 249, 0.25); }
-  footer .copyright img {
-    width: 30px;
-    padding: 5px;
-    opacity: .25;
-    transition: all 300ms;
-    -ms-transition: all 300ms;
-    -webkit-transition: all 300ms; }
-  footer .copyright img:hover {
-    opacity: 1;
-    transition: all 300ms;
-    -ms-transition: all 300ms;
-    -webkit-transition: all 300ms; }
 
 /*# sourceMappingURL=style.css.map */
