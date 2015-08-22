@@ -109,6 +109,24 @@ nav.navbar.navbar-inverse {
 
 #committees {
 	padding-top: 15vh;
+
+	.left {
+		width: 40vw;
+		color: $white;
+		text-align: right;
+		font-size: 1.5em;
+		
+
+		ul {
+			list-style-type: none;
+			cursor: pointer;
+			line-height: 1.75em;
+
+			li:hover {
+				color: $blue;
+			}
+		}
+	}
 }
 
 #team {
