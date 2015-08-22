@@ -6,11 +6,6 @@ $grey: rgba(242,246,249,.25);
 
 $opensans: "Open Sans", sans-serif;
 
-@mixin calc($property, $expression) { 
-  #{$property}: -webkit-calc(#{$expression}); 
-  #{$property}: calc(#{$expression}); 
-}
-
 .title {
   color: $white;
   font-size: 3em;

@@ -88,13 +88,14 @@ nav.navbar.navbar-inverse {
         height: 175px; }
 
 #committees {
-  padding-top: 15vh; }
+  padding-top: 20vh; }
   #committees .left {
     width: 40vw;
     color: #f2f6f9;
     text-align: right;
     font-size: 1.5em;
-    display: inline-block; }
+    display: inline-block;
+    float: left; }
     #committees .left ul {
       list-style-type: none;
       cursor: pointer;
@@ -102,12 +103,29 @@ nav.navbar.navbar-inverse {
       #committees .left ul li:hover {
         color: #5083bf; }
   #committees .right {
-    width: -webkit-calc(60vw - 30px);
-    width: calc(60vw - 30px);
+    width: 45vw;
+    color: #f2f6f9;
+    text-align: left;
     display: inline-block; }
+    #committees .right .name {
+      font-size: 2em;
+      margin-bottom: 30px; }
+    #committees .right .description {
+      font-size: 1.25em;
+      margin-bottom: 3em; }
+    #committees .right .directors {
+      font-size: 1.25em; }
+      #committees .right .directors .square {
+        width: 150px;
+        margin: 10px 10px 0 0; }
+      #committees .right .directors .director-name {
+        width: 150px;
+        margin: 5px 10px 0 0;
+        text-align: center;
+        display: inline-block; }
 
 #team {
-  padding-top: 15vh; }
+  padding-top: 18vh; }
   #team .line {
     width: 100vw;
     padding: 5px 0; }
