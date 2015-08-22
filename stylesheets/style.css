@@ -97,32 +97,48 @@ nav.navbar.navbar-inverse {
     display: inline-block;
     float: left; }
     #committees .left ul {
+      margin-bottom: 0;
+      padding-left: 0;
       list-style-type: none;
       cursor: pointer;
-      line-height: 1.75em; }
+      line-height: 1.75em;
+      display: inline-block; }
+      #committees .left ul li {
+        width: auto; }
       #committees .left ul li:hover {
         color: #5083bf; }
-      #committees .left ul #break {
+      #committees .left ul .break {
         margin-bottom: 1em; }
   #committees .right {
     width: 45vw;
     color: #f2f6f9;
     text-align: left;
     display: inline-block; }
-    #committees .right .name {
+    #committees .right .default {
+      margin-top: 10em; }
+      #committees .right .default .name {
+        font-size: 2em; }
+      #committees .right .default .description {
+        font-size: 1.25em; }
+        #committees .right .default .description a {
+          text-decoration: underline;
+          color: #f2f6f9; }
+        #committees .right .default .description a:visited {
+          color: #f2f6f9; }
+    #committees .right .committee .name {
       font-size: 2em;
       margin-bottom: 30px; }
-    #committees .right .description {
+    #committees .right .committee .description {
       font-size: 1.25em;
       margin-bottom: 3em; }
-    #committees .right .directors {
+    #committees .right .committee .directors {
       font-size: 1.25em; }
-      #committees .right .directors .person {
+      #committees .right .committee .directors .person {
         display: inline; }
-        #committees .right .directors .person img.square {
+        #committees .right .committee .directors .person img.square {
           height: 150px;
           margin: 10px 10px 0 0; }
-        #committees .right .directors .person .overlay {
+        #committees .right .committee .directors .person .overlay {
           height: 32px;
           width: 150px;
           position: absolute;
@@ -131,7 +147,7 @@ nav.navbar.navbar-inverse {
           background: #f2f6f9;
           color: #204ea0;
           text-align: center;
-          font-weight: 500;
+          font-weight: 400;
           line-height: 1.2em;
           opacity: 0.9;
           z-index: 10;
