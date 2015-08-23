@@ -281,32 +281,25 @@ nav.navbar.navbar-inverse {
   }
 }
 
-footer{
+footer {
+  height: 100px;
+  color: $grey;
+
+  .icons {
+    margin-bottom: 5px;
+    a {
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
 
   .copyright {
-    font-size: 12px;
-    height: 80px;
-    color: $grey;
+    font-size: 1em;
+    margin: 10px 0 5px 0;
+  }
 
-    img {
-      width: 30px;
-      padding: 5px;
-      opacity: .25;
-      transition: all 300ms;
-      -ms-transition: all 300ms;
-      -webkit-transition: all 300ms;
-    }
-
-    img:hover {
-      opacity: 1;
-      transition: all 300ms;
-      -ms-transition: all 300ms;
-      -webkit-transition: all 300ms;
-    }
-
-    #constitution {
-      text-decoration: underline;
-      font-size: .9em;
-    }
+  .elevator {
+    font-size: 0.8em;
+    text-decoration: underline;
   }
 }
