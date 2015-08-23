@@ -1,312 +1,312 @@
 @import '_constants';
 
 html, body {
-	height: 100vh;
-	width: 100vw;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-	font-family: $opensans;
-	font-weight: 300;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: $opensans;
+  font-weight: 300;
 
-	section {
-		height: 100vh;
-		width: 100vw;
-		position: relative;
-	}
+  section {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
 
-	div {
-		position: relative;
-	}
+  div {
+    position: relative;
+  }
 }
 
 body {
-	background: $black;
+  background: $black;
 }
 
 nav.navbar.navbar-inverse {
-	background-color: $black;
-	border: none;
-	font-size: 1.5em;
-	// border-bottom: 1px solid $blue;
+  background-color: $black;
+  border: none;
+  font-size: 1.5em;
+  // border-bottom: 1px solid $blue;
 
-	.navbar-nav {
-		float: none;
-		display: inline-block;
-		margin-bottom: -8px;
+  .navbar-nav {
+    float: none;
+    display: inline-block;
+    margin-bottom: -8px;
 
-		a#blue {
-			color: $blue;
-		}
+    a#blue {
+      color: $blue;
+    }
 
-		a#blue:hover {
-			color: $white;
-		}
+    a#blue:hover {
+      color: $white;
+    }
 
-		li>a {
-			padding: 25px;
-			color: $grey;
-			cursor: pointer;
-		}
+    li>a {
+      padding: 25px;
+      color: $grey;
+      cursor: pointer;
+    }
 
-		li>a:hover {
-			color: $white;
-		}
-	}
+    li>a:hover {
+      color: $white;
+    }
+  }
 }
 
 #main {
-	text-align: center;
-	padding-top: 35vh;
+  text-align: center;
+  padding-top: 35vh;
 
-	.logo {
-		height: 10em;
-	}
+  .logo {
+    height: 10em;
+  }
 
-	.subtitle {
-		margin-top: 10px;
-		color: $white;
-		font-size: 1.75em;
-	}
+  .subtitle {
+    margin-top: 10px;
+    color: $white;
+    font-size: 1.75em;
+  }
 
-	a.down {
-		position: absolute;
-		bottom: 10vh;
-		cursor: pointer;
-	}
+  a.down {
+    position: absolute;
+    bottom: 10vh;
+    cursor: pointer;
+  }
 
-	.glyphicon {
-		font-size: 1.75em;
-	}
+  .glyphicon {
+    font-size: 1.75em;
+  }
 }
 
 #who {
-	padding: 40vh 0;
+  padding: 40vh 0;
 
-	.content {
-		padding: 0 15vw;
-		color: $white;
-		font-size: 1.25em;
-	}
+  .content {
+    padding: 0 15vw;
+    color: $white;
+    font-size: 1.25em;
+  }
 }
 
 #what {
-	padding-top: 20vh;
+  padding-top: 20vh;
 
-	.line {
-		width: 100vw;
-		padding: 10px 0;
+  .line {
+    width: 100vw;
+    padding: 10px 0;
 
-		a {
-			padding: 10px;
+    a {
+      padding: 10px;
 
-			img.square {
-				height: 175px;
-			}
-		}
-	}
+      img.square {
+        height: 175px;
+      }
+    }
+  }
 }
 
 #committees {
-	padding-top: 20vh;
+  padding-top: 20vh;
 
-	.left {
-		width: 40vw;
-		color: $white;
-		text-align: right;
-		font-size: 1.5em;
-		display: inline-block;
-		float: left;
+  .left {
+    width: 40vw;
+    color: $white;
+    text-align: right;
+    font-size: 1.5em;
+    display: inline-block;
+    float: left;
 
-		ul {
-			margin-bottom: 0;
-			padding-left: 0;
-			list-style-type: none;
-			cursor: pointer;
-			line-height: 1.75em;
-			display: inline-block;
+    ul {
+      margin-bottom: 0;
+      padding-left: 0;
+      list-style-type: none;
+      cursor: pointer;
+      line-height: 1.75em;
+      display: inline-block;
 
-			li {
-				width: auto;
-			}
+      li {
+        width: auto;
+      }
 
-			li:hover {
-				color: $blue;
-			}
+      li:hover {
+        color: $blue;
+      }
 
-			.break {
-				margin-bottom: 1em;
-			}
-		}
-	}
+      .break {
+        margin-bottom: 1em;
+      }
+    }
+  }
 
-	.right {
-		width: 45vw;
-		color: $white;
-		text-align: left;
-		display: inline-block;
+  .right {
+    width: 45vw;
+    color: $white;
+    text-align: left;
+    display: inline-block;
 
-		.default {
-			margin-top: 10em;
+    .default {
+      margin-top: 10em;
 
-			.name {
-				font-size: 2em;
-			}
+      .name {
+        font-size: 2em;
+      }
 
-			.description {
-				font-size: 1.25em;
+      .description {
+        font-size: 1.25em;
 
-				a {
-					text-decoration: underline;
-					color: $white;
-				}
+        a {
+          text-decoration: underline;
+          color: $white;
+        }
 
-				a:visited {
-					color: $white;
-				}
-			}
-		}
+        a:visited {
+          color: $white;
+        }
+      }
+    }
 
-		.committee {
+    .committee {
 
-			.name {
-				font-size: 2em;
-				margin-bottom: 30px;
-			}
+      .name {
+        font-size: 2em;
+        margin-bottom: 30px;
+      }
 
-			.description {
-				font-size: 1.25em;
-				margin-bottom: 3em;
-			}
+      .description {
+        font-size: 1.25em;
+        margin-bottom: 3em;
+      }
 
-			.directors {
-				font-size: 1.25em;
+      .directors {
+        font-size: 1.25em;
 
-				.person {
-					display: inline-block;
-					margin: 10px 10px 0 0;
-					.name {
-						background: $black;
-						color: $white;
-						text-align: center;
-						font-weight: 400;
-						font-size: 0.8em;
-						padding: 8px;
-						border-radius: 0 0 5px 5px;
-					}
-					.image {
-						display: inline-block;
-						background: url(/img/team/q.png);
-						display: inline-block;
-						height: 150px;
-						width: 150px;
-						border-radius: 5px 5px 0 0;
-						margin: 0 0 -6px 0;
-						&:hover {
-							-webkit-transition: background 4s;
-							-moz-transition: background 4s;
-							-o-transition: background 4s;
-							transition: background 4s;
-						}
-						&.andreea-martin {
-							background: url(/img/team/andreea.png);
-							&:hover {
-								background: url(/img/team/andreea-silly.png);
-							}
-						}
-						&.benjamin-reynolds {
-							background: url(/img/team/ben.png);
-							&:hover {
-								background: url(/img/team/ben-silly.png);
-							}
-						}
-						&.elizabeth-bianchini {
-							background: url(/img/team/elizabeth.png);
-							&:hover {
-								background: url(/img/team/elizabeth-silly.png);
-							}
-						}
-						&.jack-serrino {
-							background: url(/img/team/jack.png);
-							&:hover {
-								background: url(/img/team/jack-silly.png);
-							}
-						}
-						&.jason-ma {
-							background: url(/img/team/jason.png);
-							&:hover {
-								background: url(/img/team/jason-silly.png);
-							}
-						}
-						&.jennifer-yu {
-							background: url(/img/team/jenn.png);
-							&:hover {
-								background: url(/img/team/jenn-silly.png);
-							}
-						}
-						&.jennifer-zhang {
-							background: url(/img/team/jenny.png);
-							&:hover {
-								background: url(/img/team/jenny-silly.png);
-							}
-						}
-						&.kimberli-zhong {
-							background: url(/img/team/kimberli.png);
-							&:hover {
-								background: url(/img/team/kimberli-silly.png);
-							}
-						}
-						&.larry-zhang {
-							background: url(/img/team/larry.png);
-							&:hover {
-								background: url(/img/team/larry-silly.png);
-							}
-						}
-						&.margaret-tian {
-							background: url(/img/team/margaret.png);
-							&:hover {
-								background: url(/img/team/margaret-silly.png);
-							}
-						}
-						&.sina-booeshaghi {
-							background: url(/img/team/sina.png);
-							&:hover {
-								background: url(/img/team/sina-silly.png);
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+        .person {
+          display: inline-block;
+          margin: 10px 10px 0 0;
+          .name {
+            background: $black;
+            color: $white;
+            text-align: center;
+            font-weight: 400;
+            font-size: 0.8em;
+            padding: 8px;
+            border-radius: 0 0 5px 5px;
+          }
+          .image {
+            display: inline-block;
+            background: url(/img/team/q.png);
+            display: inline-block;
+            height: 150px;
+            width: 150px;
+            border-radius: 5px 5px 0 0;
+            margin: 0 0 -6px 0;
+            &:hover {
+              -webkit-transition: background 4s;
+              -moz-transition: background 4s;
+              -o-transition: background 4s;
+              transition: background 4s;
+            }
+            &.andreea-martin {
+              background: url(/img/team/andreea.png);
+              &:hover {
+                background: url(/img/team/andreea-silly.png);
+              }
+            }
+            &.benjamin-reynolds {
+              background: url(/img/team/ben.png);
+              &:hover {
+                background: url(/img/team/ben-silly.png);
+              }
+            }
+            &.elizabeth-bianchini {
+              background: url(/img/team/elizabeth.png);
+              &:hover {
+                background: url(/img/team/elizabeth-silly.png);
+              }
+            }
+            &.jack-serrino {
+              background: url(/img/team/jack.png);
+              &:hover {
+                background: url(/img/team/jack-silly.png);
+              }
+            }
+            &.jason-ma {
+              background: url(/img/team/jason.png);
+              &:hover {
+                background: url(/img/team/jason-silly.png);
+              }
+            }
+            &.jennifer-yu {
+              background: url(/img/team/jenn.png);
+              &:hover {
+                background: url(/img/team/jenn-silly.png);
+              }
+            }
+            &.jennifer-zhang {
+              background: url(/img/team/jenny.png);
+              &:hover {
+                background: url(/img/team/jenny-silly.png);
+              }
+            }
+            &.kimberli-zhong {
+              background: url(/img/team/kimberli.png);
+              &:hover {
+                background: url(/img/team/kimberli-silly.png);
+              }
+            }
+            &.larry-zhang {
+              background: url(/img/team/larry.png);
+              &:hover {
+                background: url(/img/team/larry-silly.png);
+              }
+            }
+            &.margaret-tian {
+              background: url(/img/team/margaret.png);
+              &:hover {
+                background: url(/img/team/margaret-silly.png);
+              }
+            }
+            &.sina-booeshaghi {
+              background: url(/img/team/sina.png);
+              &:hover {
+                background: url(/img/team/sina-silly.png);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 footer{
 
-	.copyright {
-		font-size: 12px;
-		height: 80px;
-		color: $grey;
+  .copyright {
+    font-size: 12px;
+    height: 80px;
+    color: $grey;
 
-		img {
-			width: 30px;
-			padding: 5px;
-			opacity: .25;
-			transition: all 300ms;
-			-ms-transition: all 300ms;
-			-webkit-transition: all 300ms;
-		}
+    img {
+      width: 30px;
+      padding: 5px;
+      opacity: .25;
+      transition: all 300ms;
+      -ms-transition: all 300ms;
+      -webkit-transition: all 300ms;
+    }
 
-		img:hover {
-			opacity: 1;
-			transition: all 300ms;
-			-ms-transition: all 300ms;
-			-webkit-transition: all 300ms;
-		}
+    img:hover {
+      opacity: 1;
+      transition: all 300ms;
+      -ms-transition: all 300ms;
+      -webkit-transition: all 300ms;
+    }
 
-		#constitution {
-			text-decoration: underline;
-			font-size: .9em;
-		}
-	}
+    #constitution {
+      text-decoration: underline;
+      font-size: .9em;
+    }
+  }
 }
