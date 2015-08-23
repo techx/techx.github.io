@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 	// Gradient
-	var startPos = 0
-		, endPos = 3*$(window).height()
-		, startColor = [29,29,29]
-		, endColor = [32,78,160]
-		, diffColor = [endColor[0] - startColor[0], endColor[1] - startColor[1], endColor[2] - startColor[2]];
+	var startPos = 0,
+			endPos = 3*$(window).height(),
+			startColor = [29,29,29],
+			endColor = [32,78,160],
+			diffColor = [endColor[0] - startColor[0], endColor[1] - startColor[1], endColor[2] - startColor[2]];
 
 	$(document).scroll(function() {
 		var pos = ($(this).scrollTop() - startPos) / (endPos - startPos);
@@ -47,11 +47,4 @@ $(document).ready(function() {
 		}
 	});
 
-	// Photo hover
-	$('.person').hover(function(){
-		$(this).find('.overlay').fadeIn('fast');
-	},
-	function(){
-		$(this).find('.overlay').fadeOut('fast');
-	});
 });

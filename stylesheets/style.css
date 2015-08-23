@@ -134,24 +134,73 @@ nav.navbar.navbar-inverse {
     #committees .right .committee .directors {
       font-size: 1.25em; }
       #committees .right .committee .directors .person {
-        display: inline; }
-        #committees .right .committee .directors .person img.square {
-          height: 150px;
-          margin: 10px 10px 0 0; }
-        #committees .right .committee .directors .person .overlay {
-          height: 30px;
-          width: 150px;
-          position: relative;
-          top: 94px;
-          padding: 5px 5px;
-          background: #f2f6f9;
-          color: #204ea0;
+        display: inline-block;
+        margin: 10px 10px 0 0; }
+        #committees .right .committee .directors .person .name {
+          background: #1d1d1d;
+          color: #f2f6f9;
           text-align: center;
           font-weight: 400;
-          font-size: .8em;
-          opacity: 0.9;
-          z-index: 10;
-          display: none; }
+          font-size: 0.8em;
+          padding: 8px;
+          border-radius: 0 0 5px 5px; }
+        #committees .right .committee .directors .person .image {
+          display: inline-block;
+          background: url(/img/team/q.png);
+          display: inline-block;
+          height: 150px;
+          width: 150px;
+          border-radius: 5px 5px 0 0;
+          margin: 0 0 -6px 0; }
+          #committees .right .committee .directors .person .image:hover {
+            -webkit-transition: background 4s;
+            -moz-transition: background 4s;
+            -o-transition: background 4s;
+            transition: background 4s; }
+          #committees .right .committee .directors .person .image.andreea-martin {
+            background: url(/img/team/andreea.png); }
+            #committees .right .committee .directors .person .image.andreea-martin:hover {
+              background: url(/img/team/andreea-silly.png); }
+          #committees .right .committee .directors .person .image.benjamin-reynolds {
+            background: url(/img/team/ben.png); }
+            #committees .right .committee .directors .person .image.benjamin-reynolds:hover {
+              background: url(/img/team/ben-silly.png); }
+          #committees .right .committee .directors .person .image.elizabeth-bianchini {
+            background: url(/img/team/elizabeth.png); }
+            #committees .right .committee .directors .person .image.elizabeth-bianchini:hover {
+              background: url(/img/team/elizabeth-silly.png); }
+          #committees .right .committee .directors .person .image.jack-serrino {
+            background: url(/img/team/jack.png); }
+            #committees .right .committee .directors .person .image.jack-serrino:hover {
+              background: url(/img/team/jack-silly.png); }
+          #committees .right .committee .directors .person .image.jason-ma {
+            background: url(/img/team/jason.png); }
+            #committees .right .committee .directors .person .image.jason-ma:hover {
+              background: url(/img/team/jason-silly.png); }
+          #committees .right .committee .directors .person .image.jennifer-yu {
+            background: url(/img/team/jenn.png); }
+            #committees .right .committee .directors .person .image.jennifer-yu:hover {
+              background: url(/img/team/jenn-silly.png); }
+          #committees .right .committee .directors .person .image.jennifer-zhang {
+            background: url(/img/team/jenny.png); }
+            #committees .right .committee .directors .person .image.jennifer-zhang:hover {
+              background: url(/img/team/jenny-silly.png); }
+          #committees .right .committee .directors .person .image.kimberli-zhong {
+            background: url(/img/team/kimberli.png); }
+            #committees .right .committee .directors .person .image.kimberli-zhong:hover {
+              background: url(/img/team/kimberli-silly.png); }
+          #committees .right .committee .directors .person .image.larry-zhang {
+            background: url(/img/team/larry.png); }
+            #committees .right .committee .directors .person .image.larry-zhang:hover {
+              background: url(/img/team/larry-silly.png); }
+          #committees .right .committee .directors .person .image.margaret-tian {
+            background: url(/img/team/margaret.png); }
+            #committees .right .committee .directors .person .image.margaret-tian:hover {
+              background: url(/img/team/margaret-silly.png); }
+          #committees .right .committee .directors .person .image.sina-booeshaghi {
+            background: url(/img/team/sina.png); }
+            #committees .right .committee .directors .person .image.sina-booeshaghi:hover {
+              background: url(/img/team/sina-silly.png); }
 
 footer .copyright {
   font-size: 12px;

@@ -58,7 +58,7 @@ nav.navbar.navbar-inverse {
 #main {
 	text-align: center;
 	padding-top: 35vh;
-	
+
 	.logo {
 		height: 10em;
 	}
@@ -148,7 +148,7 @@ nav.navbar.navbar-inverse {
 
 		.default {
 			margin-top: 10em;
-			
+
 			.name {
 				font-size: 2em;
 			}
@@ -183,27 +183,97 @@ nav.navbar.navbar-inverse {
 				font-size: 1.25em;
 
 				.person {
-				display: inline;
-
-					img.square {
-						height: 150px;
-						margin: 10px 10px 0 0;
-					}
-
-					.overlay{
-						height: 30px;
-						width: 150px;
-						position: relative;
-						top: 94px;
-						padding: 5px 5px;
-						background: $white;
-						color: $darkblue;
+					display: inline-block;
+					margin: 10px 10px 0 0;
+					.name {
+						background: $black;
+						color: $white;
 						text-align: center;
 						font-weight: 400;
-						font-size: .8em;
-						opacity: 0.9;
-						z-index: 10;
-						display: none;
+						font-size: 0.8em;
+						padding: 8px;
+						border-radius: 0 0 5px 5px;
+					}
+					.image {
+						display: inline-block;
+						background: url(/img/team/q.png);
+						display: inline-block;
+						height: 150px;
+						width: 150px;
+						border-radius: 5px 5px 0 0;
+						margin: 0 0 -6px 0;
+						&:hover {
+							-webkit-transition: background 4s;
+							-moz-transition: background 4s;
+							-o-transition: background 4s;
+							transition: background 4s;
+						}
+						&.andreea-martin {
+							background: url(/img/team/andreea.png);
+							&:hover {
+								background: url(/img/team/andreea-silly.png);
+							}
+						}
+						&.benjamin-reynolds {
+							background: url(/img/team/ben.png);
+							&:hover {
+								background: url(/img/team/ben-silly.png);
+							}
+						}
+						&.elizabeth-bianchini {
+							background: url(/img/team/elizabeth.png);
+							&:hover {
+								background: url(/img/team/elizabeth-silly.png);
+							}
+						}
+						&.jack-serrino {
+							background: url(/img/team/jack.png);
+							&:hover {
+								background: url(/img/team/jack-silly.png);
+							}
+						}
+						&.jason-ma {
+							background: url(/img/team/jason.png);
+							&:hover {
+								background: url(/img/team/jason-silly.png);
+							}
+						}
+						&.jennifer-yu {
+							background: url(/img/team/jenn.png);
+							&:hover {
+								background: url(/img/team/jenn-silly.png);
+							}
+						}
+						&.jennifer-zhang {
+							background: url(/img/team/jenny.png);
+							&:hover {
+								background: url(/img/team/jenny-silly.png);
+							}
+						}
+						&.kimberli-zhong {
+							background: url(/img/team/kimberli.png);
+							&:hover {
+								background: url(/img/team/kimberli-silly.png);
+							}
+						}
+						&.larry-zhang {
+							background: url(/img/team/larry.png);
+							&:hover {
+								background: url(/img/team/larry-silly.png);
+							}
+						}
+						&.margaret-tian {
+							background: url(/img/team/margaret.png);
+							&:hover {
+								background: url(/img/team/margaret-silly.png);
+							}
+						}
+						&.sina-booeshaghi {
+							background: url(/img/team/sina.png);
+							&:hover {
+								background: url(/img/team/sina-silly.png);
+							}
+						}
 					}
 				}
 			}
