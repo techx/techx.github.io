@@ -141,6 +141,8 @@ nav.navbar.navbar-inverse {
         #committees .right .committee .directors .person .overlay {
           height: 30px;
           width: 150px;
+          position: relative;
+          top: 94px;
           padding: 5px 5px;
           background: #f2f6f9;
           color: #204ea0;
