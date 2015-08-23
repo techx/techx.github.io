@@ -193,8 +193,8 @@ nav.navbar.navbar-inverse {
 					.overlay{
 						height: 30px;
 						width: 150px;
-						position: absolute;
-						top: 94px;
+						// position: relative;
+						// top: 94px;
 						padding: 5px 5px;
 						background: $white;
 						color: $darkblue;
@@ -236,6 +236,7 @@ footer{
 
 		#constitution {
 			text-decoration: underline;
+			font-size: .9em;
 		}
 	}
 }
