@@ -88,7 +88,8 @@ nav.navbar.navbar-inverse {
         height: 175px; }
 
 #committees {
-  padding-top: 20vh; }
+  padding-top: 20vh;
+  height: 105vh; }
   #committees .left {
     width: 40vw;
     color: #f2f6f9;
