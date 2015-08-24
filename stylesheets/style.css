@@ -153,10 +153,10 @@ nav.navbar.navbar-inverse {
           border-radius: 5px 5px 0 0;
           margin: 0 0 -6px 0; }
           #committees .right .committee .directors .person .image:hover {
-            -webkit-transition: background 4s;
-            -moz-transition: background 4s;
-            -o-transition: background 4s;
-            transition: background 4s; }
+            -webkit-transition: background 3s;
+            -moz-transition: background 3s;
+            -o-transition: background 3s;
+            transition: background 3s; }
           #committees .right .committee .directors .person .image.andreea-martin {
             background: url(/img/team/andreea.png); }
             #committees .right .committee .directors .person .image.andreea-martin:hover {
@@ -208,6 +208,7 @@ footer {
   footer .icons {
     margin-bottom: 5px; }
     footer .icons a {
+      font-size: .75em;
       display: inline-block;
       margin: 0 5px; }
   footer .copyright {

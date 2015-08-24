@@ -185,6 +185,7 @@ nav.navbar.navbar-inverse {
         .person {
           display: inline-block;
           margin: 10px 10px 0 0;
+
           .name {
             background: $black;
             color: $white;
@@ -194,6 +195,7 @@ nav.navbar.navbar-inverse {
             padding: 8px;
             border-radius: 0 0 5px 5px;
           }
+
           .image {
             display: inline-block;
             background: url(/img/team/q.png);
@@ -202,12 +204,14 @@ nav.navbar.navbar-inverse {
             width: 150px;
             border-radius: 5px 5px 0 0;
             margin: 0 0 -6px 0;
+
             &:hover {
-              -webkit-transition: background 4s;
-              -moz-transition: background 4s;
-              -o-transition: background 4s;
-              transition: background 4s;
+              -webkit-transition: background 3s;
+              -moz-transition: background 3s;
+              -o-transition: background 3s;
+              transition: background 3s;
             }
+
             &.andreea-martin {
               background: url(/img/team/andreea.png);
               &:hover {
@@ -287,7 +291,9 @@ footer {
 
   .icons {
     margin-bottom: 5px;
+
     a {
+    	font-size: .75em;
       display: inline-block;
       margin: 0 5px;
     }
