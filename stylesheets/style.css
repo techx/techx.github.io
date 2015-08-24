@@ -147,7 +147,6 @@ nav.navbar.navbar-inverse {
         #committees .right .committee .directors .person .image {
           display: inline-block;
           background: url(/img/team/q.png);
-          display: inline-block;
           height: 150px;
           width: 150px;
           border-radius: 5px 5px 0 0;
