@@ -157,6 +157,10 @@ nav.navbar.navbar-inverse {
             -moz-transition: background 3s;
             -o-transition: background 3s;
             transition: background 3s; }
+          #committees .right .committee .directors .person .image.archis-bhandarkar {
+            background: url(/img/team/archis.png); }
+            #committees .right .committee .directors .person .image.archis-bhandarkar:hover {
+              background: url(/img/team/archis-silly.png); }
           #committees .right .committee .directors .person .image.andreea-martin {
             background: url(/img/team/andreea.png); }
             #committees .right .committee .directors .person .image.andreea-martin:hover {

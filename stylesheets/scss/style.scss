@@ -28,7 +28,6 @@ nav.navbar.navbar-inverse {
   background-color: $black;
   border: none;
   font-size: 1.5em;
-  // border-bottom: 1px solid $blue;
 
   .navbar-nav {
     float: none;
@@ -212,6 +211,12 @@ nav.navbar.navbar-inverse {
               transition: background 3s;
             }
 
+            &.archis-bhandarkar {
+              background: url(/img/team/archis.png);
+              &:hover {
+                background: url(/img/team/archis-silly.png);
+              }
+            }
             &.andreea-martin {
               background: url(/img/team/andreea.png);
               &:hover {
