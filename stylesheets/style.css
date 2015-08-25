@@ -295,21 +295,19 @@ footer {
       #committees .right .default {
         margin-top: 8em; } }
 @media only screen and (max-width: 568px) {
-  #who .title {
+  .title {
     font-size: 2.5em; }
+
   #who .content {
     font-size: 1.1em; }
 
   #what .title {
-    font-size: 2.5em;
     margin-bottom: 5px; }
   #what .line > a > img.square {
     height: 90px; }
 
   #committees {
     height: 200vh; }
-    #committees .title {
-      font-size: 2.5em; }
     #committees .left {
       font-size: 1.2em; }
     #committees .right {
@@ -326,5 +324,59 @@ footer {
         width: 125px; }
       #committees .right .committee .directors .person .name {
         font-size: .7em; } }
+@media only screen and (max-width: 414px) {
+  #what {
+    padding-top: 25vh; }
+    #what .title {
+      margin-bottom: 25px; }
+
+  #committees {
+    height: 135vh; }
+    #committees .left {
+      font-size: 1.1em; }
+    #committees .right .committee .description {
+      font-size: 1.1em;
+      margin-bottom: 2em; }
+    #committees .right .committee .directors .person .name {
+      margin-bottom: 1em; } }
+@media only screen and (max-width: 375px) {
+  #what {
+    padding-top: 25vh; }
+    #what .title {
+      margin-bottom: 25px; }
+
+  #committees {
+    height: 160vh; }
+    #committees .left {
+      font-size: 1.1em; }
+    #committees .right .committee .description {
+      font-size: 1.1em;
+      margin-bottom: 2em; }
+    #committees .right .committee .directors .person .name {
+      margin-bottom: 1em; } }
+@media only screen and (max-width: 320px) {
+  .title {
+    font-size: 3em; }
+
+  #main .subtitle {
+    font-size: 1.25em; }
+
+  #who .content {
+    font-size: 1.25em; }
+
+  #what {
+    padding-top: 25vh; }
+    #what .title {
+      margin-bottom: 25px; }
+
+  #committees {
+    height: 175vh; }
+    #committees .left {
+      font-size: 1.1em; }
+    #committees .right .committee .description {
+      font-size: 1.1em;
+      margin-bottom: 2em; }
+    #committees .right .committee .directors .person .name {
+      margin-bottom: 1em; } }
 
 /*# sourceMappingURL=style.css.map */

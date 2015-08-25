@@ -426,12 +426,12 @@ footer {
 }
 
 @media only screen and (max-width: 568px) {
+	
+	.title {
+		font-size: 2.5em;
+	}
 
 	#who {
-
-		.title {
-			font-size: 2.5em;
-		}
 
 		.content {
 			font-size: 1.1em;
@@ -441,7 +441,6 @@ footer {
 	#what {
 
 		.title {
-			font-size: 2.5em;
 			margin-bottom: 5px;
 		}
 
@@ -452,10 +451,6 @@ footer {
 
 	#committees {
 		height: 200vh;
-
-		.title {
-			font-size: 2.5em;
-		}
 
 		.left {
 			font-size: 1.2em;
@@ -488,6 +483,135 @@ footer {
 
 					.name {
 						font-size: .7em;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	
+	#what {
+		padding-top: 25vh;
+
+		.title {
+			margin-bottom: 25px;
+		}
+	}
+
+	#committees {
+		height: 135vh;
+
+		.left {
+			font-size: 1.1em;
+		}
+
+		.right {
+
+			.committee {
+
+				.description {
+					font-size: 1.1em;
+					margin-bottom: 2em;
+				}
+
+				.directors .person {
+
+					.name {
+						margin-bottom: 1em;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 375px) {
+
+	#what {
+		padding-top: 25vh;
+
+		.title {
+			margin-bottom: 25px;
+		}
+	}
+
+	#committees {
+		height: 160vh;
+
+		.left {
+			font-size: 1.1em;
+		}
+
+		.right {
+
+			.committee {
+
+				.description {
+					font-size: 1.1em;
+					margin-bottom: 2em;
+				}
+
+				.directors .person {
+
+					.name {
+						margin-bottom: 1em;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 320px) {
+
+	.title {
+		font-size: 3em;
+	}
+
+	#main {
+
+		.subtitle {
+			font-size: 1.25em;
+		}
+	}
+
+	#who {
+
+		.content {
+			font-size: 1.25em;
+		}
+	}
+
+	#what {
+		padding-top: 25vh;
+
+		.title {
+			margin-bottom: 25px;
+		}
+	}
+
+	#committees {
+		height: 175vh;
+
+		.left {
+			font-size: 1.1em;
+		}
+
+		.right {
+
+			.committee {
+
+				.description {
+					font-size: 1.1em;
+					margin-bottom: 2em;
+				}
+
+				.directors .person {
+
+					.name {
+						margin-bottom: 1em;
 					}
 				}
 			}
