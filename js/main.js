@@ -28,7 +28,7 @@ $(document).ready(function() {
     var elementName = e.target.id.substr(5);
     $bodytag.animate({
       scrollTop: $('#'+elementName).offset().top
-    }, 300);
+    }, 400);
   });
 
   $('#elevator').click(function(e){
@@ -39,7 +39,7 @@ $(document).ready(function() {
   $('#down').click(function() {
     $('html, body').animate({
       scrollTop: $('#who').offset().top
-    }, 300);
+    }, 400);
   });
 
   // Committees
