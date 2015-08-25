@@ -159,77 +159,53 @@ nav.navbar.navbar-inverse {
             -o-transition: background 1s;
             transition: background 1s; }
           #committees .right .committee .directors .person .image.archis-bhandarkar {
-            background: url(/img/team/archis.png);
-            background-size: contain; }
+            background: url(/img/team/archis.png); }
             #committees .right .committee .directors .person .image.archis-bhandarkar:hover {
-              background: url(/img/team/archis-silly.png);
-              background-size: contain; }
+              background: url(/img/team/archis-silly.png); }
           #committees .right .committee .directors .person .image.andreea-martin {
-            background: url(/img/team/andreea.png);
-            background-size: contain; }
+            background: url(/img/team/andreea.png); }
             #committees .right .committee .directors .person .image.andreea-martin:hover {
-              background: url(/img/team/andreea-silly.png);
-              background-size: contain; }
+              background: url(/img/team/andreea-silly.png); }
           #committees .right .committee .directors .person .image.benjamin-reynolds {
-            background: url(/img/team/ben.png);
-            background-size: contain; }
+            background: url(/img/team/ben.png); }
             #committees .right .committee .directors .person .image.benjamin-reynolds:hover {
-              background: url(/img/team/ben-silly.png);
-              background-size: contain; }
+              background: url(/img/team/ben-silly.png); }
           #committees .right .committee .directors .person .image.elizabeth-bianchini {
-            background: url(/img/team/elizabeth.png);
-            background-size: contain; }
+            background: url(/img/team/elizabeth.png); }
             #committees .right .committee .directors .person .image.elizabeth-bianchini:hover {
-              background: url(/img/team/elizabeth-silly.png);
-              background-size: contain; }
+              background: url(/img/team/elizabeth-silly.png); }
           #committees .right .committee .directors .person .image.jack-serrino {
-            background: url(/img/team/jack.png);
-            background-size: contain; }
+            background: url(/img/team/jack.png); }
             #committees .right .committee .directors .person .image.jack-serrino:hover {
-              background: url(/img/team/jack-silly.png);
-              background-size: contain; }
+              background: url(/img/team/jack-silly.png); }
           #committees .right .committee .directors .person .image.jason-ma {
-            background: url(/img/team/jason.png);
-            background-size: contain; }
+            background: url(/img/team/jason.png); }
             #committees .right .committee .directors .person .image.jason-ma:hover {
-              background: url(/img/team/jason-silly.png);
-              background-size: contain; }
+              background: url(/img/team/jason-silly.png); }
           #committees .right .committee .directors .person .image.jennifer-yu {
-            background: url(/img/team/jenn.png);
-            background-size: contain; }
+            background: url(/img/team/jenn.png); }
             #committees .right .committee .directors .person .image.jennifer-yu:hover {
-              background: url(/img/team/jenn-silly.png);
-              background-size: contain; }
+              background: url(/img/team/jenn-silly.png); }
           #committees .right .committee .directors .person .image.jennifer-zhang {
-            background: url(/img/team/jenny.png);
-            background-size: contain; }
+            background: url(/img/team/jenny.png); }
             #committees .right .committee .directors .person .image.jennifer-zhang:hover {
-              background: url(/img/team/jenny-silly.png);
-              background-size: contain; }
+              background: url(/img/team/jenny-silly.png); }
           #committees .right .committee .directors .person .image.kimberli-zhong {
-            background: url(/img/team/kimberli.png);
-            background-size: contain; }
+            background: url(/img/team/kimberli.png); }
             #committees .right .committee .directors .person .image.kimberli-zhong:hover {
-              background: url(/img/team/kimberli-silly.png);
-              background-size: contain; }
+              background: url(/img/team/kimberli-silly.png); }
           #committees .right .committee .directors .person .image.larry-zhang {
-            background: url(/img/team/larry.png);
-            background-size: contain; }
+            background: url(/img/team/larry.png); }
             #committees .right .committee .directors .person .image.larry-zhang:hover {
-              background: url(/img/team/larry-silly.png);
-              background-size: contain; }
+              background: url(/img/team/larry-silly.png); }
           #committees .right .committee .directors .person .image.margaret-tian {
-            background: url(/img/team/margaret.png);
-            background-size: contain; }
+            background: url(/img/team/margaret.png); }
             #committees .right .committee .directors .person .image.margaret-tian:hover {
-              background: url(/img/team/margaret-silly.png);
-              background-size: contain; }
+              background: url(/img/team/margaret-silly.png); }
           #committees .right .committee .directors .person .image.sina-booeshaghi {
-            background: url(/img/team/sina.png);
-            background-size: contain; }
+            background: url(/img/team/sina.png); }
             #committees .right .committee .directors .person .image.sina-booeshaghi:hover {
-              background: url(/img/team/sina-silly.png);
-              background-size: contain; }
+              background: url(/img/team/sina-silly.png); }
 
 footer {
   height: 100px;
