@@ -199,88 +199,113 @@ nav.navbar.navbar-inverse {
           .image {
             display: inline-block;
             background: url(/img/team/q.png);
+            background-size: contain;
             height: 150px;
             width: 150px;
             border-radius: 5px 5px 0 0;
             margin: 0 0 -6px 0;
 
             &:hover {
-              -webkit-transition: background 3s;
-              -moz-transition: background 3s;
-              -o-transition: background 3s;
-              transition: background 3s;
+              -webkit-transition: background 1s;
+              -moz-transition: background 1s;
+              -o-transition: background 1s;
+              transition: background 1s;
             }
 
             &.archis-bhandarkar {
               background: url(/img/team/archis.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/archis-silly.png);
+                background-size: contain;
               }
             }
             &.andreea-martin {
               background: url(/img/team/andreea.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/andreea-silly.png);
+                background-size: contain;
               }
             }
             &.benjamin-reynolds {
               background: url(/img/team/ben.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/ben-silly.png);
+                background-size: contain;
               }
             }
             &.elizabeth-bianchini {
               background: url(/img/team/elizabeth.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/elizabeth-silly.png);
+                background-size: contain;
               }
             }
             &.jack-serrino {
               background: url(/img/team/jack.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/jack-silly.png);
+                background-size: contain;
               }
             }
             &.jason-ma {
               background: url(/img/team/jason.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/jason-silly.png);
+                background-size: contain;
               }
             }
             &.jennifer-yu {
               background: url(/img/team/jenn.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/jenn-silly.png);
+                background-size: contain;
               }
             }
             &.jennifer-zhang {
               background: url(/img/team/jenny.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/jenny-silly.png);
+                background-size: contain;
               }
             }
             &.kimberli-zhong {
               background: url(/img/team/kimberli.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/kimberli-silly.png);
+                background-size: contain;
               }
             }
             &.larry-zhang {
               background: url(/img/team/larry.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/larry-silly.png);
+                background-size: contain;
               }
             }
             &.margaret-tian {
               background: url(/img/team/margaret.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/margaret-silly.png);
+                background-size: contain;
               }
             }
             &.sina-booeshaghi {
               background: url(/img/team/sina.png);
+              background-size: contain;
               &:hover {
                 background: url(/img/team/sina-silly.png);
+                background-size: contain;
               }
             }
           }
@@ -358,9 +383,114 @@ footer {
 
 	#committees {
 		height: 190vh;
+	}
+}
+
+@media only screen and (max-width: 667px) {
+
+	#main {
+		padding-top: 30vh;
+	}
+
+	#who {
+		padding-top: 30vh;
+	}
+
+	#what {
+		padding-top: 18vh;
+
+		.title {
+			margin-bottom: 15px;
+		}
+
+		.line>a>img.square {
+			height: 90px;
+		}
+	}
+
+	#committees {
+		height: 200vh;
 
 		.left {
-			// font-size: 1em;
+			font-size: 1.4em;
+		}
+
+		.right {
+			width: 50vw;
+
+			.default {
+				margin-top: 8em;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 568px) {
+
+	#who {
+
+		.title {
+			font-size: 2.5em;
+		}
+
+		.content {
+			font-size: 1.1em;
+		}
+	}
+
+	#what {
+
+		.title {
+			font-size: 2.5em;
+			margin-bottom: 5px;
+		}
+
+		.line>a>img.square {
+			height: 90px;
+		}
+	}
+
+	#committees {
+		height: 200vh;
+
+		.title {
+			font-size: 2.5em;
+		}
+
+		.left {
+			font-size: 1.2em;
+		}
+
+		.right {
+			width: 50vw;
+
+			.default {
+				margin-top: 8em;
+
+				.description {
+					font-size: 1.1em;
+				}
+			}
+
+			.committee {
+
+				.description {
+					font-size: 1.1em;
+					margin-bottom: 2em;
+				}
+
+				.directors .person {
+
+					.image {
+						height: 125px;
+						width: 125px;
+					}
+
+					.name {
+						font-size: .7em;
+					}
+				}
+			}
 		}
 	}
 }
