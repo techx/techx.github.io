@@ -309,3 +309,53 @@ footer {
     text-decoration: underline;
   }
 }
+
+@media only screen and (max-width: 768px) {
+
+	#what {
+	  padding-top: 25vh;
+	}
+
+	#committees {
+		padding-top: 22vh;
+		height: 100vh;
+	}
+}
+
+@media only screen and (max-width: 736px) {
+
+	#main {
+
+		.logo {
+			height: 5em;
+		}
+	}
+
+	#who {
+		padding-top: 35vh;
+	}
+
+	#what {
+		padding-top: 20vh;
+
+		.line {
+			padding: 5px 0;
+
+			a {
+				padding: 5px;
+
+				img.square {
+					height: 100px;
+				}
+			}
+		}
+	}
+
+	#committees {
+		height: 190vh;
+
+		.left {
+			// font-size: 1em;
+		}
+	}
+}

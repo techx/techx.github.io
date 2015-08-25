@@ -218,4 +218,30 @@ footer {
     font-size: 0.8em;
     text-decoration: underline; }
 
+@media only screen and (max-width: 768px) {
+  #what {
+    padding-top: 25vh; }
+
+  #committees {
+    padding-top: 22vh;
+    height: 100vh; } }
+@media only screen and (max-width: 736px) {
+  #main .logo {
+    height: 5em; }
+
+  #who {
+    padding-top: 35vh; }
+
+  #what {
+    padding-top: 20vh; }
+    #what .line {
+      padding: 5px 0; }
+      #what .line a {
+        padding: 5px; }
+        #what .line a img.square {
+          height: 100px; }
+
+  #committees {
+    height: 190vh; } }
+
 /*# sourceMappingURL=style.css.map */
