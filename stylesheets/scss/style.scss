@@ -212,6 +212,12 @@ nav.navbar.navbar-inverse {
               transition: background 3s;
             }
 
+            &.archis-bhandarkar {
+              background: url(/img/team/archis.png);
+              &:hover {
+                background: url(/img/team/archis-silly.png);
+              }
+            }
             &.andreea-martin {
               background: url(/img/team/andreea.png);
               &:hover {
