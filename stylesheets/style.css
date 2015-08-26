@@ -334,6 +334,8 @@ footer {
     height: 135vh; }
     #committees .left {
       font-size: 1.1em; }
+    #committees .right .default {
+      margin-top: 5em; }
     #committees .right .committee .description {
       font-size: 1.1em;
       margin-bottom: 2em; }
