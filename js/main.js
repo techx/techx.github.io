@@ -57,4 +57,14 @@ $(document).ready(function() {
     }
   });
 
+  // Preload images
+  var people = ["andreea", "archis", "ben", "elizabeth", "jack", "jason", "jenn", "jenny", "kimberli", "larry", "margaret", "sina"];
+  for (var i = 0; i < people.length; i++) {
+    var person = people[i];
+    var image = new Image();
+    var sillyImage = new Image();
+    image.src = "/img/team/"+person+".png";
+    sillyImage.src = "/img/team/"+person+"-silly.png";
+  }
+
 });
