@@ -176,6 +176,12 @@ nav.navbar.navbar-inverse {
             #committees .right .committee .directors .person .image.benjamin-reynolds:hover {
               background: url(/img/team/ben-silly.png);
               background-size: contain; }
+          #committees .right .committee .directors .person .image.daniel-lerner {
+            background: url(/img/team/daniel.png);
+            background-size: contain; }
+            #committees .right .committee .directors .person .image.daniel-lerner:hover {
+              background: url(/img/team/daniel-silly.png);
+              background-size: contain; }
           #committees .right .committee .directors .person .image.elizabeth-bianchini {
             background: url(/img/team/elizabeth.png);
             background-size: contain; }

@@ -58,7 +58,7 @@ $(document).ready(function() {
   });
 
   // Preload images
-  var people = ["andreea", "archis", "ben", "elizabeth", "jack", "jason", "jenn", "jenny", "kimberli", "larry", "margaret", "sina"];
+  var people = ["andreea", "archis", "ben", "daniel", "elizabeth", "jack", "jason", "jenn", "jenny", "kimberli", "larry", "margaret", "sina"];
   for (var i = 0; i < people.length; i++) {
     var person = people[i];
     var image = new Image();

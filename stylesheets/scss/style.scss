@@ -236,6 +236,14 @@ nav.navbar.navbar-inverse {
                 background-size: contain;
               }
             }
+            &.daniel-lerner {
+              background: url(/img/team/daniel.png);
+              background-size: contain;
+              &:hover {
+                background: url(/img/team/daniel-silly.png);
+                background-size: contain;
+              }
+            }
             &.elizabeth-bianchini {
               background: url(/img/team/elizabeth.png);
               background-size: contain;
@@ -426,7 +434,7 @@ footer {
 }
 
 @media only screen and (max-width: 568px) {
-	
+
 	.title {
 		font-size: 2.5em;
 	}
@@ -491,7 +499,7 @@ footer {
 }
 
 @media only screen and (max-width: 414px) {
-	
+
 	#what {
 		padding-top: 25vh;
 
