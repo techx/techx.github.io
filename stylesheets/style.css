@@ -165,10 +165,10 @@ nav.navbar.navbar-inverse {
               background: url(/img/team/funny_margaret.png);
               background-size: contain; }
           #committees .right .committee .directors .person .image.associate-director {
-            background: url(/img/team/serious_andreea.png);
+            background: url(/img/team/serious_andreea.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.associate-director:hover {
-              background: url(/img/team/funny_andreea.png);
+              background: url(/img/team/funny_andreea.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.makemit-director {
             background: url(/img/team/serious_abhi.jpg);
@@ -213,10 +213,10 @@ nav.navbar.navbar-inverse {
               background: url(/img/team/funny_vahid.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.marketing-director {
-            background: url(/img/team/serious_annie.png);
+            background: url(/img/team/serious_annie.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.marketing-director:hover {
-              background: url(/img/team/funny_annie.png);
+              background: url(/img/team/funny_annie.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.devops-director {
             background: url(/img/team/serious_anthony.jpg);
