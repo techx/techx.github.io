@@ -89,7 +89,12 @@ nav.navbar.navbar-inverse {
 
 #committees {
   padding-top: 20vh;
-  height: 115vh; }
+  height: 200vh; }
+  #committees .infographic-wrapper {
+    height: 35vh;
+    margin: 25px 0; }
+    #committees .infographic-wrapper .infographic {
+      height: 100%; }
   #committees .left {
     width: 40vw;
     color: #f2f6f9;
@@ -386,3 +391,5 @@ footer {
       margin-bottom: 2em; }
     #committees .right .committee .directors .person .name {
       margin-bottom: 1em; } }
+
+/*# sourceMappingURL=style.css.map */

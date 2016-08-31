@@ -108,7 +108,16 @@ nav.navbar.navbar-inverse {
 
 #committees {
   padding-top: 20vh;
-  height: 115vh;
+  height: 200vh;
+
+  .infographic-wrapper {
+    height: 35vh;
+    margin: 25px 0;
+
+    .infographic {
+      height: 100%;
+    }
+  }
 
   .left {
     width: 40vw;
