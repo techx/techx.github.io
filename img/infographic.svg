@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 513.6 286.2" style="enable-background:new 0 0 513.6 286.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F9ED27;}
+	.st1{fill:#EDC358;}
+	.st2{fill:#F04F5E;}
+	.st3{fill:#6FD0F6;}
+	.st4{fill:#70BF46;}
+	.st5{fill:none;}
+	.st6{fill:#FFFFFF;stroke:#FCFAFC;stroke-width:0.1;stroke-miterlimit:10;}
+	.st7{font-family:'OpenSans-Light';}
+	.st8{font-size:12px;}
+	.st9{fill:#FFFFFF;}
+	.st10{fill:#5184C0;}
+	.st11{fill:none;stroke:#5184C0;stroke-miterlimit:10;}
+</style>
+<circle class="st0" cx="57.7" cy="180.9" r="29.4"/>
+<circle class="st1" cx="156" cy="181.3" r="29.4"/>
+<circle class="st2" cx="451.4" cy="181.5" r="29.4"/>
+<circle class="st3" cx="354.6" cy="180.6" r="29.4"/>
+<circle class="st4" cx="256.2" cy="181.3" r="29.4"/>
+<rect x="29.4" y="175.9" class="st5" width="56" height="13.2"/>
+<text transform="matrix(1 0 0 1 40.5794 185.051)" class="st6 st7 st8">THINK</text>
+<g>
+	<rect x="115.2" y="175.9" class="st5" width="81" height="13.2"/>
+	<text transform="matrix(1 0 0 1 131.2798 185.051)" class="st9 st7 st8">MakeMIT</text>
+</g>
+<g>
+	<rect x="227.9" y="175.9" class="st5" width="56" height="13.2"/>
+	<text transform="matrix(1 0 0 1 241.9182 185.051)" class="st9 st7 st8">ProjX</text>
+</g>
+<g>
+	<rect x="326.3" y="175.9" class="st5" width="56" height="13.2"/>
+	<text transform="matrix(1 0 0 1 341.3934 185.051)" class="st9 st7 st8">xFair</text>
+</g>
+<g>
+	<rect x="423.1" y="175.9" class="st5" width="56" height="13.2"/>
+	<text transform="matrix(1 0 0 1 427.9835 185.051)" class="st9 st7 st8">HackMIT</text>
+</g>
+<rect x="21.3" y="217.4" class="st5" width="72.7" height="42.7"/>
+<text transform="matrix(1 0 0 1 34.9206 226.5308)"><tspan x="0" y="0" class="st0 st7 st8">Dev Ops</tspan><tspan x="-4.1" y="14.4" class="st0 st7 st8">Marketing</tspan><tspan x="7.8" y="28.8" class="st0 st7 st8">Fin/IR</tspan></text>
+<circle class="st10" cx="257.2" cy="63.8" r="50"/>
+<rect x="198.6" y="37.6" class="st5" width="120" height="62.9"/>
+<text transform="matrix(1 0 0 1 233.2574 46.7494)"><tspan x="0" y="0" class="st9 st7 st8">Executive </tspan><tspan x="4.6" y="14.4" class="st9 st7 st8">Team &amp;</tspan><tspan x="-4.4" y="28.8" class="st9 st7 st8">Committee </tspan><tspan x="0.7" y="43.2" class="st9 st7 st8">Directors</tspan></text>
+<rect x="119.6" y="217.4" class="st5" width="72.7" height="42.7"/>
+<text transform="matrix(1 0 0 1 133.2206 226.5308)"><tspan x="0" y="0" class="st1 st7 st8">Dev Ops</tspan><tspan x="-4.1" y="14.4" class="st1 st7 st8">Marketing</tspan><tspan x="7.8" y="28.8" class="st1 st7 st8">Fin/IR</tspan></text>
+<rect x="219.5" y="217.4" class="st5" width="72.7" height="42.7"/>
+<text transform="matrix(1 0 0 1 233.0706 226.5308)"><tspan x="0" y="0" class="st4 st7 st8">Dev Ops</tspan><tspan x="-4.1" y="14.4" class="st4 st7 st8">Marketing</tspan><tspan x="7.8" y="28.8" class="st4 st7 st8">Fin/IR</tspan></text>
+<rect x="318.2" y="217.4" class="st5" width="72.7" height="42.7"/>
+<text transform="matrix(1 0 0 1 331.8201 226.5308)"><tspan x="0" y="0" class="st3 st7 st8">Dev Ops</tspan><tspan x="-4.1" y="14.4" class="st3 st7 st8">Marketing</tspan><tspan x="7.8" y="28.8" class="st3 st7 st8">Fin/IR</tspan></text>
+<rect x="414.7" y="217.4" class="st5" width="72.7" height="42.7"/>
+<text transform="matrix(1 0 0 1 428.2706 226.5308)"><tspan x="0" y="0" class="st2 st7 st8">Dev Ops</tspan><tspan x="-4.1" y="14.4" class="st2 st7 st8">Marketing</tspan><tspan x="7.8" y="28.8" class="st2 st7 st8">Fin/IR</tspan></text>
+<polyline class="st11" points="23,152.1 23,142.7 257.2,142.7 495.4,142.7 495.4,151.9 "/>
+<line class="st11" x1="257.2" y1="113.8" x2="257.2" y2="142.7"/>
+</svg>

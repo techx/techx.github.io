@@ -71,7 +71,11 @@ nav.navbar.navbar-inverse {
     font-size: 1.75em; }
 
 #who {
-  padding: 40vh 0; }
+  padding: 20vh 0; }
+  #who .equation-wrapper {
+    margin-bottom: 20px; }
+    #who .equation-wrapper .equation {
+      width: 70%; }
   #who .content {
     padding: 0 15vw;
     color: #f2f6f9;
@@ -89,10 +93,10 @@ nav.navbar.navbar-inverse {
 
 #committees {
   padding-top: 20vh;
-  height: 200vh; }
+  height: 180vh; }
   #committees .infographic-wrapper {
-    height: 35vh;
-    margin: 25px 0; }
+    height: 60vh;
+    margin: 25px 0 40px 0; }
     #committees .infographic-wrapper .infographic {
       height: 100%; }
   #committees .left {
