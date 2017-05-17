@@ -44,7 +44,7 @@ $(document).ready(function() {
 
   // Committees
   var currentCommittee = 'default';
-  var $committeeTags = $('#show-exec, #show-hack, #show-xfair, #show-make, #show-projx, #show-think, #show-devops, #show-mkt, #show-fin');
+  var $committeeTags = $('#show-exec, #show-hack, #show-xfair, #show-make, #show-projx, #show-specialx, #show-think, #show-devops, #show-mkt, #show-fin, #show-ir');
   $committeeTags.click(function(e) {
     var elementName = e.target.id.substr(5);
     if (currentCommittee !== elementName) {
@@ -56,15 +56,5 @@ $(document).ready(function() {
       });
     }
   });
-
-  // Preload images
-  var people = ["andreea", "archis", "ben", "daniel", "elizabeth", "jack", "jason", "jenn", "jenny", "kimberli", "larry", "margaret", "sina"];
-  for (var i = 0; i < people.length; i++) {
-    var person = people[i];
-    var image = new Image();
-    var sillyImage = new Image();
-    image.src = "/img/team/"+person+".png";
-    sillyImage.src = "/img/team/"+person+"-silly.png";
-  }
 
 });
