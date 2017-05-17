@@ -244,7 +244,7 @@ nav.navbar.navbar-inverse {
             background: url(/img/team/serious_sarah.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.fin-director:hover {
-              background: url(/img/team/funny_sarah.jpg);
+              background: url(/img/team/serious_sarah.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.ir-director {
             background: url(/img/team/serious_stef.jpg);
@@ -253,10 +253,10 @@ nav.navbar.navbar-inverse {
               background: url(/img/team/funny_stef.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.special-x-director {
-            background: url(/img/team/serious_vahid.png);
+            background: url(/img/team/serious_vahid.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.special-x-director:hover {
-              background: url(/img/team/funny_vahid.png);
+              background: url(/img/team/funny_vahid.jpg);
               background-size: contain; }
 
 footer {
