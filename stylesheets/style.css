@@ -1,7 +1,3 @@
-body {
-  overflow-x: hidden;
-}
-
 .title {
   color: #f2f6f9;
   font-size: 3em;
@@ -173,82 +169,94 @@ nav.navbar.navbar-inverse {
             -o-transition: background 1s;
             transition: background 1s; }
           #committees .right .committee .directors .person .image.managing-director {
-            background: url(/img/team/serious_margaret.png);
+            background: url(/img/team/serious_anna.png);
             background-size: contain; }
             #committees .right .committee .directors .person .image.managing-director:hover {
-              background: url(/img/team/funny_margaret.png);
+              background: url(/img/team/funny_anna.png);
               background-size: contain; }
           #committees .right .committee .directors .person .image.associate-director {
-            background: url(/img/team/serious_andreea.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.associate-director:hover {
-              background: url(/img/team/funny_andreea.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.makemit-director {
             background: url(/img/team/serious_abhi.jpg);
             background-size: contain; }
-            #committees .right .committee .directors .person .image.makemit-director:hover {
+            #committees .right .committee .directors .person .image.associate-director:hover {
               background: url(/img/team/funny_abhi.jpg);
               background-size: contain; }
+          #committees .right .committee .directors .person .image.makemit-director {
+            background: url(/img/team/serious_rahul.jpg);
+            background-size: contain; }
+            #committees .right .committee .directors .person .image.makemit-director:hover {
+              background: url(/img/team/funny_rahul.jpg);
+              background-size: contain; }
           #committees .right .committee .directors .person .image.logs-director {
-            background: url(/img/team/serious_anna.jpg);
+            background: url(/img/team/serious_jessica.JPG);
             background-size: contain; }
             #committees .right .committee .directors .person .image.logs-director:hover {
-              background: url(/img/team/funny_anna.jpg);
+              background: url(/img/team/funny_jessica.JPG);
               background-size: contain; }
           #committees .right .committee .directors .person .image.cr-director {
-            background: url(/img/team/serious_claudia.jpg);
+            background: url(/img/team/serious_allen.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.cr-director:hover {
-              background: url(/img/team/funny_claudia.jpg);
+              background: url(/img/team/funny_allen.jpg);
               background-size: contain; }
-          #committees .right .committee .directors .person .image.think-director {
-            background: url(/img/team/serious_kavish.jpg);
+          #committees .right .committee .directors .person .image.think-director1 {
+            background: url(/img/team/serious_sooraj.jpg);
             background-size: contain; }
-            #committees .right .committee .directors .person .image.think-director:hover {
-              background: url(/img/team/funny_kavish.jpg);
+            #committees .right .committee .directors .person .image.think-director1:hover {
+              background: url(/img/team/funny_sooraj.jpg);
+              background-size: contain; }
+          #committees .right .committee .directors .person .image.think-director2 {
+            background: url(/img/team/q.png);
+            background-size: contain; }
+            #committees .right .committee .directors .person .image.think-director2:hover {
+              background: url(/img/team/q.png);
               background-size: contain; }
           #committees .right .committee .directors .person .image.hackmit-director-1 {
-            background: url(/img/team/serious_kimberli.png);
+            background: url(/img/team/serious_claire.png);
             background-size: contain; }
             #committees .right .committee .directors .person .image.hackmit-director-1:hover {
-              background: url(/img/team/funny_kimberli.png);
+              background: url(/img/team/funny_claire.png);
               background-size: contain; }
           #committees .right .committee .directors .person .image.hackmit-director-2 {
-            background: url(/img/team/serious_stef.jpg);
+            background: url(/img/team/q.png);
             background-size: contain; }
             #committees .right .committee .directors .person .image.hackmit-director-2:hover {
-              background: url(/img/team/funny_stef.jpg);
+              background: url(/img/team/q.png);
               background-size: contain; }
           #committees .right .committee .directors .person .image.projx-director {
-            background: url(/img/team/serious_vahid.jpg);
+            background: url(/img/team/serious_madee.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.projx-director:hover {
-              background: url(/img/team/funny_vahid.jpg);
+              background: url(/img/team/funny_madee.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.marketing-director {
-            background: url(/img/team/serious_annie.jpg);
+            background: url(/img/team/q.png);
             background-size: contain; }
             #committees .right .committee .directors .person .image.marketing-director:hover {
-              background: url(/img/team/funny_annie.jpg);
+              background: url(/img/team/q.png);
               background-size: contain; }
           #committees .right .committee .directors .person .image.devops-director {
-            background: url(/img/team/serious_anthony.jpg);
+            background: url(/img/team/serious_moin.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.devops-director:hover {
-              background: url(/img/team/funny_anthony.jpg);
+              background: url(/img/team/funny_moin.jpg);
               background-size: contain; }
-          #committees .right .committee .directors .person .image.fin-ir-director {
-            background: url(/img/team/serious_marianne.jpg);
+          #committees .right .committee .directors .person .image.fin-director {
+            background: url(/img/team/serious_sarah.jpg);
             background-size: contain; }
-            #committees .right .committee .directors .person .image.fin-ir-director:hover {
-              background: url(/img/team/funny_marianne.png);
+            #committees .right .committee .directors .person .image.fin-director:hover {
+              background: url(/img/team/serious_sarah.jpg);
+              background-size: contain; }
+          #committees .right .committee .directors .person .image.ir-director {
+            background: url(/img/team/serious_stef.jpg);
+            background-size: contain; }
+            #committees .right .committee .directors .person .image.ir-director:hover {
+              background: url(/img/team/funny_stef.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.special-x-director {
-            background: url(/img/team/serious_jack.png);
+            background: url(/img/team/serious_vahid.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.special-x-director:hover {
-              background: url(/img/team/funny_jack.png);
+              background: url(/img/team/funny_vahid.jpg);
               background-size: contain; }
 
 footer {
@@ -400,5 +408,3 @@ footer {
       margin-bottom: 2em; }
     #committees .right .committee .directors .person .name {
       margin-bottom: 1em; } }
-
-/*# sourceMappingURL=style.css.map */

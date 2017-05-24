@@ -231,22 +231,14 @@ nav.navbar.navbar-inverse {
             }
 
             &.managing-director {
-              background: url(/img/team/serious_margaret.png);
+              background: url(/img/team/serious_anna.png);
               background-size: contain;
               &:hover {
-                background: url(/img/team/funny_margaret.png);
+                background: url(/img/team/funny_anna.png);
                 background-size: contain;
               }
             }
             &.associate-director {
-              background: url(/img/team/serious_andreea.jpg);
-              background-size: contain;
-              &:hover {
-                background: url(/img/team/funny_andreea.jpg);
-                background-size: contain;
-              }
-            }
-            &.makemit-director {
               background: url(/img/team/serious_abhi.jpg);
               background-size: contain;
               &:hover {
@@ -254,39 +246,95 @@ nav.navbar.navbar-inverse {
                 background-size: contain;
               }
             }
-            &.logs-director {
-              background: url(/img/team/serious_anna.jpg);
+            &.makemit-director {
+              background: url(/img/team/serious_rahul.jpg);
               background-size: contain;
               &:hover {
-                background: url(/img/team/funny_anna.jpg);
+                background: url(/img/team/funny_rahul.jpg);
+                background-size: contain;
+              }
+            }
+            &.logs-director {
+              background: url(/img/team/serious_jessica.JPG);
+              background-size: contain;
+              &:hover {
+                background: url(/img/team/funny_jessica.JPG);
                 background-size: contain;
               }
             }
             &.cr-director {
-              background: url(/img/team/serious_claudia.jpg);
+              background: url(/img/team/serious_allen.jpg);
               background-size: contain;
               &:hover {
-                background: url(/img/team/funny_claudia.jpg);
+                background: url(/img/team/funny_allen.jpg);
                 background-size: contain;
               }
             }
-            &.think-director {
-              background: url(/img/team/serious_kavish.jpg);
+            &.think-director1 {
+              background: url(/img/team/serious_sooraj.jpg);
               background-size: contain;
               &:hover {
-                background: url(/img/team/funny_kavish.jpg);
+                background: url(/img/team/funny_sooraj.jpg);
+                background-size: contain;
+              }
+            }
+            &.think-director2 {
+              background: url(/img/team/q.png); //serious_ramya.jpg
+              background-size: contain;
+              &:hover {
+                background: url(/img/team/q.png); //funny_ramya.jpg
                 background-size: contain;
               }
             }
             &.hackmit-director-1 {
-              background: url(/img/team/serious_kimberli.png);
+              background: url(/img/team/serious_claire.png);
               background-size: contain;
               &:hover {
-                background: url(/img/team/funny_kimberli.png);
+                background: url(/img/team/funny_claire.png);
                 background-size: contain;
               }
             }
             &.hackmit-director-2 {
+              background: url(/img/team/q.png); //serious_michael.jpg
+              background-size: contain;
+              &:hover {
+                background: url(/img/team/q.png); //funny_michael.jpg
+                background-size: contain;
+              }
+            }
+            &.projx-director {
+              background: url(/img/team/serious_madee.jpg);
+              background-size: contain;
+              &:hover {
+                background: url(/img/team/funny_madee.jpg);
+                background-size: contain;
+              }
+            }
+            &.marketing-director {
+              background: url(/img/team/q.png); //serious_rebca.jpg
+              background-size: contain;
+              &:hover {
+                background: url(/img/team/q.png); //funny_rebca.jpg
+                background-size: contain;
+              }
+            }
+            &.devops-director {
+              background: url(/img/team/serious_moin.jpg);
+              background-size: contain;
+              &:hover {
+                background: url(/img/team/funny_moin.jpg);
+                background-size: contain;
+              }
+            }
+            &.fin-director {
+              background: url(/img/team/serious_sarah.jpg);
+              background-size: contain;
+              &:hover {
+                background: url(/img/team/serious_sarah.jpg);
+                background-size: contain;
+              }
+            }
+            &.ir-director {
               background: url(/img/team/serious_stef.jpg);
               background-size: contain;
               &:hover {
@@ -294,43 +342,11 @@ nav.navbar.navbar-inverse {
                 background-size: contain;
               }
             }
-            &.projx-director {
+            &.special-x-director {
               background: url(/img/team/serious_vahid.jpg);
               background-size: contain;
               &:hover {
                 background: url(/img/team/funny_vahid.jpg);
-                background-size: contain;
-              }
-            }
-            &.marketing-director {
-              background: url(/img/team/serious_annie.jpg);
-              background-size: contain;
-              &:hover {
-                background: url(/img/team/funny_annie.jpg);
-                background-size: contain;
-              }
-            }
-            &.devops-director {
-              background: url(/img/team/serious_anthony.jpg);
-              background-size: contain;
-              &:hover {
-                background: url(/img/team/funny_anthony.jpg);
-                background-size: contain;
-              }
-            }
-            &.fin-ir-director {
-              background: url(/img/team/serious_marianne.jpg);
-              background-size: contain;
-              &:hover {
-                background: url(/img/team/funny_marianne.png);
-                background-size: contain;
-              }
-            }
-            &.special-x-director {
-              background: url(/img/team/serious_jack.png);
-              background-size: contain;
-              &:hover {
-                background: url(/img/team/funny_jack.png);
                 background-size: contain;
               }
             }
