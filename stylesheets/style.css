@@ -162,101 +162,113 @@ nav.navbar.navbar-inverse {
           height: 150px;
           width: 150px;
           border-radius: 5px 5px 0 0;
-          margin: 0 0 -6px 0; }
+          margin: 0 0 -6px 0;
+         /*
+         &.think-director1 {
+           background: url(/img/team/serious_sooraj.jpg);
+           background-size: contain;
+           &:hover {
+             background: url(/img/team/funny_sooraj.jpg);
+             background-size: contain;
+           }
+         }
+         &.think-director2 {
+           background: url(/img/team/serious_ramya.jpg);
+           background-size: contain;
+           &:hover {
+             background: url(/img/team/funny_ramya.jpg);
+             background-size: contain;
+           }
+         }
+        */ }
           #committees .right .committee .directors .person .image:hover {
             -webkit-transition: background 1s;
             -moz-transition: background 1s;
             -o-transition: background 1s;
             transition: background 1s; }
           #committees .right .committee .directors .person .image.managing-director {
-            background: url(/img/team/serious_anna.png);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.managing-director:hover {
-              background: url(/img/team/funny_anna.png);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.associate-director {
-            background: url(/img/team/serious_abhi.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.associate-director:hover {
-              background: url(/img/team/funny_abhi.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.makemit-director {
-            background: url(/img/team/serious_rahul.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.makemit-director:hover {
-              background: url(/img/team/funny_rahul.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.logs-director {
-            background: url(/img/team/serious_jessica.JPG);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.logs-director:hover {
-              background: url(/img/team/funny_jessica.JPG);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.cr-director {
-            background: url(/img/team/serious_allen.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.cr-director:hover {
-              background: url(/img/team/funny_allen.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.think-director1 {
-            background: url(/img/team/serious_sooraj.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.think-director1:hover {
-              background: url(/img/team/funny_sooraj.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.think-director2 {
             background: url(/img/team/serious_ramya.jpg);
             background-size: contain; }
-            #committees .right .committee .directors .person .image.think-director2:hover {
+            #committees .right .committee .directors .person .image.managing-director:hover {
               background: url(/img/team/funny_ramya.jpg);
               background-size: contain; }
-          #committees .right .committee .directors .person .image.hackmit-director-1 {
-            background: url(/img/team/serious_claire.png);
+          #committees .right .committee .directors .person .image.associate-director {
+            background: url(/img/team/serious_jessica.jpg);
             background-size: contain; }
-            #committees .right .committee .directors .person .image.hackmit-director-1:hover {
-              background: url(/img/team/funny_claire.png);
+            #committees .right .committee .directors .person .image.associate-director:hover {
+              background: url(/img/team/funny_jessica.jpg);
               background-size: contain; }
-          #committees .right .committee .directors .person .image.hackmit-director-2 {
+          #committees .right .committee .directors .person .image.makemit-director {
+            background: url(/img/team/serious_albert.jpg);
+            background-size: contain; }
+            #committees .right .committee .directors .person .image.makemit-director:hover {
+              background: url(/img/team/funny_albert.jpg);
+              background-size: contain; }
+          #committees .right .committee .directors .person .image.logs-director {
+            background: url(/img/team/serious_savannah.jpg);
+            background-size: contain; }
+            #committees .right .committee .directors .person .image.logs-director:hover {
+              background: url(/img/team/funny_savannah.jpg);
+              background-size: contain; }
+          #committees .right .committee .directors .person .image.cr-director {
+            background: url(/img/team/serious_amy.jpg);
+            background-size: contain; }
+            #committees .right .committee .directors .person .image.cr-director:hover {
+              background: url(/img/team/funny_amy.jpg);
+              background-size: contain; }
+          #committees .right .committee .directors .person .image.think-director {
+            background: url(/img/team/serious_allan.jpg);
+            background-size: contain; }
+            #committees .right .committee .directors .person .image.think-director:hover {
+              background: url(/img/team/funny_allan.jpg);
+              background-size: contain; }
+          #committees .right .committee .directors .person .image.hackmit-director-1 {
             background: url(/img/team/serious_michael.jpg);
             background-size: contain; }
-            #committees .right .committee .directors .person .image.hackmit-director-2:hover {
+            #committees .right .committee .directors .person .image.hackmit-director-1:hover {
               background: url(/img/team/funny_michael.jpg);
               background-size: contain; }
+          #committees .right .committee .directors .person .image.hackmit-director-2 {
+            background: url(/img/team/serious_jess.jpg);
+            background-size: contain; }
+            #committees .right .committee .directors .person .image.hackmit-director-2:hover {
+              background: url(/img/team/funny_jess.jpg);
+              background-size: contain; }
           #committees .right .committee .directors .person .image.projx-director {
-            background: url(/img/team/serious_madee.jpg);
+            background: url(/img/team/serious_rachel.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.projx-director:hover {
-              background: url(/img/team/funny_madee.jpg);
+              background: url(/img/team/funny_rachel.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.marketing-director {
-            background: url(/img/team/serious_rebca.jpg);
+            background: url(/img/team/serious_su.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.marketing-director:hover {
-              background: url(/img/team/funny_rebca.jpg);
+              background: url(/img/team/funny_su.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.devops-director {
-            background: url(/img/team/serious_moin.jpg);
+            background: url(/img/team/serious_anton.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.devops-director:hover {
-              background: url(/img/team/funny_moin.jpg);
+              background: url(/img/team/funny_anton.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.fin-director {
-            background: url(/img/team/serious_sarah.jpg);
+            background: url(/img/team/serious_ria.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.fin-director:hover {
-              background: url(/img/team/funny_sarah.jpg);
+              background: url(/img/team/funny_ria.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.ir-director {
-            background: url(/img/team/serious_stef.jpg);
+            background: url(/img/team/serious_neena.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.ir-director:hover {
-              background: url(/img/team/funny_stef.jpg);
+              background: url(/img/team/funny_neena.jpg);
               background-size: contain; }
           #committees .right .committee .directors .person .image.special-x-director {
-            background: url(/img/team/serious_vahid.jpg);
+            background: url(/img/team/serious_ant.jpg);
             background-size: contain; }
             #committees .right .committee .directors .person .image.special-x-director:hover {
-              background: url(/img/team/funny_vahid.jpg);
+              background: url(/img/team/funny_ant.jpg);
               background-size: contain; }
 
 footer {
@@ -278,15 +290,17 @@ footer {
 @media only screen and (max-width: 768px) {
   #what {
     padding-top: 25vh; }
+
   #committees {
     padding-top: 22vh;
     height: 100vh; } }
-
 @media only screen and (max-width: 736px) {
   #main .logo {
     height: 5em; }
+
   #who {
     padding-top: 35vh; }
+
   #what {
     padding-top: 20vh; }
     #what .line {
@@ -295,20 +309,23 @@ footer {
         padding: 5px; }
         #what .line a img.square {
           height: 100px; }
+
   #committees {
     height: 190vh; } }
-
 @media only screen and (max-width: 667px) {
   #main {
     padding-top: 30vh; }
+
   #who {
     padding-top: 30vh; }
+
   #what {
     padding-top: 18vh; }
     #what .title {
       margin-bottom: 15px; }
     #what .line > a > img.square {
       height: 90px; }
+
   #committees {
     height: 200vh; }
     #committees .left {
@@ -317,16 +334,18 @@ footer {
       width: 50vw; }
       #committees .right .default {
         margin-top: 8em; } }
-
 @media only screen and (max-width: 568px) {
   .title {
     font-size: 2.5em; }
+
   #who .content {
     font-size: 1.1em; }
+
   #what .title {
     margin-bottom: 5px; }
   #what .line > a > img.square {
     height: 90px; }
+
   #committees {
     height: 200vh; }
     #committees .left {
@@ -345,12 +364,12 @@ footer {
         width: 125px; }
       #committees .right .committee .directors .person .name {
         font-size: .7em; } }
-
 @media only screen and (max-width: 414px) {
   #what {
     padding-top: 25vh; }
     #what .title {
       margin-bottom: 25px; }
+
   #committees {
     height: 135vh; }
     #committees .left {
@@ -362,12 +381,12 @@ footer {
       margin-bottom: 2em; }
     #committees .right .committee .directors .person .name {
       margin-bottom: 1em; } }
-
 @media only screen and (max-width: 375px) {
   #what {
     padding-top: 25vh; }
     #what .title {
       margin-bottom: 25px; }
+
   #committees {
     height: 160vh; }
     #committees .left {
@@ -377,18 +396,21 @@ footer {
       margin-bottom: 2em; }
     #committees .right .committee .directors .person .name {
       margin-bottom: 1em; } }
-
 @media only screen and (max-width: 320px) {
   .title {
     font-size: 3em; }
+
   #main .subtitle {
     font-size: 1.25em; }
+
   #who .content {
     font-size: 1.25em; }
+
   #what {
     padding-top: 25vh; }
     #what .title {
       margin-bottom: 25px; }
+
   #committees {
     height: 190vh; }
     #committees .left {
@@ -398,3 +420,5 @@ footer {
       margin-bottom: 2em; }
     #committees .right .committee .directors .person .name {
       margin-bottom: 1em; } }
+
+/*# sourceMappingURL=style.css.map */
