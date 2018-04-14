@@ -117,6 +117,7 @@ nav.navbar.navbar-inverse {
 #committees {
   padding-top: 20vh;
   height: 180vh;
+  overflow: auto;
 
   .infographic-wrapper {
     height: 60vh;
@@ -369,6 +370,7 @@ nav.navbar.navbar-inverse {
 
 footer {
   height: 100px;
+  padding-top: 10px;
   color: $grey;
 
   .icons {

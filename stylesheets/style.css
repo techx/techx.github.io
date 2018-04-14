@@ -93,7 +93,8 @@ nav.navbar.navbar-inverse {
 
 #committees {
   padding-top: 20vh;
-  height: 180vh; }
+  height: 180vh;
+  overflow: auto; }
   #committees .infographic-wrapper {
     height: 60vh;
     margin: 25px 0 40px 0; }
@@ -273,6 +274,7 @@ nav.navbar.navbar-inverse {
 
 footer {
   height: 100px;
+  padding-top: 10px;
   color: rgba(242, 246, 249, 0.25); }
   footer .icons {
     margin-bottom: 5px; }
