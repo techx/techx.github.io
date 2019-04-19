@@ -1,21 +1,24 @@
 .title {
   color: #f2f6f9;
   font-size: 3em;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+}
 
 a {
   color: rgba(242, 246, 249, 0.25);
   text-decoration: none;
   transition: all 300ms;
   -ms-transition: all 300ms;
-  -webkit-transition: all 300ms; }
+  -webkit-transition: all 300ms;
+}
 
 a:hover {
   color: #f2f6f9;
   text-decoration: none;
   transition: all 300ms;
   -ms-transition: all 300ms;
-  -webkit-transition: all 300ms; }
+  -webkit-transition: all 300ms;
+}
 
 html, body {
   height: 100vh;
@@ -24,403 +27,539 @@ html, body {
   margin: 0;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  font-weight: 300; }
-  html section, body section {
-    height: 100vh;
-    width: 100vw;
-    position: relative; }
-  html div, body div {
-    position: relative; }
+  font-weight: 300;
+}
+html section, body section {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+html div, body div {
+  position: relative;
+}
 
 body {
-  background: #1d1d1d; }
+  background: #1d1d1d;
+}
 
 nav.navbar.navbar-inverse {
   background-color: #1d1d1d;
   border: none;
-  font-size: 1.5em; }
-  nav.navbar.navbar-inverse .navbar-nav {
-    float: none;
-    display: inline-block;
-    margin-bottom: -8px; }
-    nav.navbar.navbar-inverse .navbar-nav a#blue {
-      color: #5083bf; }
-    nav.navbar.navbar-inverse .navbar-nav a#blue:hover {
-      color: #f2f6f9; }
-    nav.navbar.navbar-inverse .navbar-nav li > a {
-      padding: 25px;
-      color: rgba(242, 246, 249, 0.25);
-      cursor: pointer; }
-    nav.navbar.navbar-inverse .navbar-nav li > a:hover {
-      color: #f2f6f9; }
+  font-size: 1.5em;
+}
+nav.navbar.navbar-inverse .navbar-nav {
+  float: none;
+  display: inline-block;
+  margin-bottom: -8px;
+}
+nav.navbar.navbar-inverse .navbar-nav a#blue {
+  color: #5083bf;
+}
+nav.navbar.navbar-inverse .navbar-nav a#blue:hover {
+  color: #f2f6f9;
+}
+nav.navbar.navbar-inverse .navbar-nav li > a {
+  padding: 25px;
+  color: rgba(242, 246, 249, 0.25);
+  cursor: pointer;
+}
+nav.navbar.navbar-inverse .navbar-nav li > a:hover {
+  color: #f2f6f9;
+}
 
 #main {
   text-align: center;
-  padding-top: 35vh; }
-  #main .logo {
-    height: 10em; }
-  #main .subtitle {
-    margin-top: 10px;
-    color: #f2f6f9;
-    font-size: 1.75em; }
-  #main a.down {
-    position: absolute;
-    bottom: 10vh;
-    cursor: pointer; }
-  #main .glyphicon {
-    font-size: 1.75em; }
+  padding-top: 35vh;
+}
+#main .logo {
+  height: 10em;
+}
+#main .subtitle {
+  margin-top: 10px;
+  color: #f2f6f9;
+  font-size: 1.75em;
+}
+#main a.down {
+  position: absolute;
+  bottom: 10vh;
+  cursor: pointer;
+}
+#main .glyphicon {
+  font-size: 1.75em;
+}
 
 #who {
-  padding: 20vh 0; }
-  #who .equation-wrapper {
-    margin-bottom: 20px; }
-    #who .equation-wrapper .equation {
-      width: 70%; }
-  #who .content {
-    padding: 0 15vw;
-    color: #f2f6f9;
-    font-size: 1.25em; }
+  padding: 20vh 0;
+}
+#who .equation-wrapper {
+  margin-bottom: 20px;
+}
+#who .equation-wrapper .equation {
+  width: 70%;
+}
+#who .content {
+  padding: 0 15vw;
+  color: #f2f6f9;
+  font-size: 1.25em;
+}
 
 #what {
-  padding-top: 20vh; }
-  #what .line {
-    width: 100vw;
-    padding: 10px 0; }
-    #what .line a {
-      padding: 10px; }
-      #what .line a img.square {
-        height: 175px; }
+  padding-top: 20vh;
+}
+#what .line {
+  width: 100vw;
+  padding: 10px 0;
+}
+#what .line a {
+  padding: 10px;
+}
+#what .line a img.square {
+  height: 175px;
+}
 
 #committees {
   padding-top: 20vh;
   height: 180vh;
-  overflow: auto; }
-  #committees .infographic-wrapper {
-    height: 60vh;
-    margin: 25px 0 40px 0; }
-    #committees .infographic-wrapper .infographic {
-      height: 100%;
-      width: 100%; }
-  #committees .left {
-    width: 40vw;
-    color: #f2f6f9;
-    text-align: right;
-    font-size: 1.5em;
-    display: inline-block;
-    float: left; }
-    #committees .left ul {
-      margin-bottom: 0;
-      padding-left: 0;
-      list-style-type: none;
-      cursor: pointer;
-      line-height: 1.75em;
-      display: inline-block; }
-      #committees .left ul li {
-        width: auto; }
-      #committees .left ul li:hover {
-        color: #5083bf; }
-      #committees .left ul .break {
-        margin-bottom: 1em; }
-  #committees .right {
-    width: 45vw;
-    color: #f2f6f9;
-    text-align: left;
-    display: inline-block; }
-    #committees .right .default {
-      margin-top: 10em; }
-      #committees .right .default .name {
-        font-size: 2em; }
-      #committees .right .default .description {
-        font-size: 1.25em; }
-        #committees .right .default .description a {
-          text-decoration: underline;
-          color: #f2f6f9; }
-        #committees .right .default .description a:visited {
-          color: #f2f6f9; }
-    #committees .right .committee .name {
-      font-size: 2em;
-      margin-bottom: 30px; }
-    #committees .right .committee .description {
-      font-size: 1.25em;
-      margin-bottom: 3em; }
-    #committees .right .committee .directors {
-      font-size: 1.25em; }
-      #committees .right .committee .directors .person {
-        display: inline-block;
-        margin: 10px 10px 0 0; }
-        #committees .right .committee .directors .person .name {
-          background: #1d1d1d;
-          color: #f2f6f9;
-          text-align: center;
-          font-weight: 400;
-          font-size: 0.8em;
-          padding: 8px;
-          border-radius: 0 0 5px 5px; }
-        #committees .right .committee .directors .person .image {
-          display: inline-block;
-          background: url(/img/team/q.png);
-          background-size: contain;
-          height: 150px;
-          width: 150px;
-          border-radius: 5px 5px 0 0;
-          margin: 0 0 -6px 0;
-         /*
-         &.think-director1 {
-           background: url(/img/team/serious_sooraj.jpg);
-           background-size: contain;
-           &:hover {
-             background: url(/img/team/funny_sooraj.jpg);
-             background-size: contain;
-           }
-         }
-         &.think-director2 {
-           background: url(/img/team/serious_ramya.jpg);
-           background-size: contain;
-           &:hover {
-             background: url(/img/team/funny_ramya.jpg);
-             background-size: contain;
-           }
-         }
-        */ }
-          #committees .right .committee .directors .person .image:hover {
-            -webkit-transition: background 1s;
-            -moz-transition: background 1s;
-            -o-transition: background 1s;
-            transition: background 1s; }
-          #committees .right .committee .directors .person .image.managing-director {
-            background: url(/img/team/serious_ramya.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.managing-director:hover {
-              background: url(/img/team/funny_ramya.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.associate-director {
-            background: url(/img/team/serious_jessica.JPG);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.associate-director:hover {
-              background: url(/img/team/funny_jessica.JPG);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.makemit-director {
-            background: url(/img/team/serious_albert.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.makemit-director:hover {
-              background: url(/img/team/funny_albert.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.logs-director {
-            background: url(/img/team/serious_savannah.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.logs-director:hover {
-              background: url(/img/team/funny_savannah.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.cr-director {
-            background: url(/img/team/serious_amy.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.cr-director:hover {
-              background: url(/img/team/funny_amy.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.think-director {
-            background: url(/img/team/serious_allan.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.think-director:hover {
-              background: url(/img/team/funny_allan.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.hackmit-director-1 {
-            background: url(/img/team/serious_michael.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.hackmit-director-1:hover {
-              background: url(/img/team/funny_michael.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.hackmit-director-2 {
-            background: url(/img/team/serious_jess.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.hackmit-director-2:hover {
-              background: url(/img/team/funny_jess.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.projx-director {
-            background: url(/img/team/serious_rachel.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.projx-director:hover {
-              background: url(/img/team/funny_rachel.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.marketing-director {
-            background: url(/img/team/serious_su.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.marketing-director:hover {
-              background: url(/img/team/funny_su.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.devops-director {
-            background: url(/img/team/serious_anton.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.devops-director:hover {
-              background: url(/img/team/funny_anton.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.fin-director {
-            background: url(/img/team/serious_ria.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.fin-director:hover {
-              background: url(/img/team/funny_ria.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.ir-director {
-            background: url(/img/team/serious_neena.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.ir-director:hover {
-              background: url(/img/team/funny_neena.jpg);
-              background-size: contain; }
-          #committees .right .committee .directors .person .image.special-x-director {
-            background: url(/img/team/serious_ethan.jpg);
-            background-size: contain; }
-            #committees .right .committee .directors .person .image.special-x-director:hover {
-              background: url(/img/team/funny_ethan.jpg);
-              background-size: contain; }
+  overflow: auto;
+}
+#committees .infographic-wrapper {
+  height: 60vh;
+  margin: 25px 0 40px 0;
+}
+#committees .infographic-wrapper .infographic {
+  height: 100%;
+  width: 100%;
+}
+#committees .left {
+  width: 40vw;
+  color: #f2f6f9;
+  text-align: right;
+  font-size: 1.5em;
+  display: inline-block;
+  float: left;
+}
+#committees .left ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  cursor: pointer;
+  line-height: 1.75em;
+  display: inline-block;
+}
+#committees .left ul li {
+  width: auto;
+}
+#committees .left ul li:hover {
+  color: #5083bf;
+}
+#committees .left ul .break {
+  margin-bottom: 1em;
+}
+#committees .right {
+  width: 45vw;
+  color: #f2f6f9;
+  text-align: left;
+  display: inline-block;
+}
+#committees .right .default {
+  margin-top: 10em;
+}
+#committees .right .default .name {
+  font-size: 2em;
+}
+#committees .right .default .description {
+  font-size: 1.25em;
+}
+#committees .right .default .description a {
+  text-decoration: underline;
+  color: #f2f6f9;
+}
+#committees .right .default .description a:visited {
+  color: #f2f6f9;
+}
+#committees .right .committee .name {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+#committees .right .committee .description {
+  font-size: 1.25em;
+  margin-bottom: 3em;
+}
+#committees .right .committee .directors {
+  font-size: 1.25em;
+}
+#committees .right .committee .directors .person {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+#committees .right .committee .directors .person .name {
+  background: #1d1d1d;
+  color: #f2f6f9;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.8em;
+  padding: 8px;
+  border-radius: 0 0 5px 5px;
+}
+#committees .right .committee .directors .person .image {
+  display: inline-block;
+  background: url(/img/team/q.png);
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  border-radius: 5px 5px 0 0;
+  margin: 0 0 -6px 0;
+  /*
+   &.think-director1 {
+     background: url(/img/team/serious_sooraj.jpg);
+     background-size: contain;
+     &:hover {
+       background: url(/img/team/funny_sooraj.jpg);
+       background-size: contain;
+     }
+   }
+   &.think-director2 {
+     background: url(/img/team/serious_ramya.jpg);
+     background-size: contain;
+     &:hover {
+       background: url(/img/team/funny_ramya.jpg);
+       background-size: contain;
+     }
+   }
+  */
+}
+#committees .right .committee .directors .person .image:hover {
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+#committees .right .committee .directors .person .image.managing-director {
+  background: url(/img/team/regular_amy.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.managing-director:hover {
+  background: url(/img/team/funny_amy.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.associate-director {
+  background: url(/img/team/regular_allan.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.associate-director:hover {
+  background: url(/img/team/funny_allan.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.makemit-director {
+  background: url(/img/team/regular_tiffany.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.makemit-director:hover {
+  background: url(/img/team/funny_tiffany.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.xfair-director1 {
+  background: url(/img/team/regular_jessica_lee.png);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.xfair-director1:hover {
+  background: url(/img/team/funny_jessica_lee.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.xfair-director2 {
+  background: url(/img/team/regular_madie.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.xfair-director2:hover {
+  background: url(/img/team/funny_madie.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.think-director {
+  background: url(/img/team/regular_aditya.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.think-director:hover {
+  background: url(/img/team/funny_aditya.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.hackmit-director-1 {
+  background: url(/img/team/regular_jessica_sun.png);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.hackmit-director-1:hover {
+  background: url(/img/team/funny_jessica_sun.png);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.hackmit-director-2 {
+  background: url(/img/team/regular_jack.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.hackmit-director-2:hover {
+  background: url(/img/team/funny_jack.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.projx-director {
+  background: url(/img/team/regular_jimmy.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.projx-director:hover {
+  background: url(/img/team/funny_jimmy.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.marketing-director {
+  background: url(/img/team/regular_rachel.png);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.marketing-director:hover {
+  background: url(/img/team/funny_rachel.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.devops-director {
+  background: url(/img/team/regular_bryan.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.devops-director:hover {
+  background: url(/img/team/funny_bryan.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.fin-director {
+  background: url(/img/team/regular_amber.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.fin-director:hover {
+  background: url(/img/team/funny_amber.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.ir-director {
+  background: url(/img/team/regular_savannah.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.ir-director:hover {
+  background: url(/img/team/funny_savannah.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.special-x-director {
+  background: url(/img/team/regular_maya.png);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.special-x-director:hover {
+  background: url(/img/team/funny_maya.png);
+  background-size: contain;
+}
 
 footer {
   height: 100px;
   padding-top: 10px;
-  color: rgba(242, 246, 249, 0.25); }
-  footer .icons {
-    margin-bottom: 5px; }
-    footer .icons a {
-      font-size: .75em;
-      display: inline-block;
-      margin: 0 5px; }
-  footer .copyright {
-    font-size: 1em;
-    margin: 10px 0 5px 0; }
-  footer .elevator {
-    font-size: 0.8em;
-    text-decoration: underline; }
+  color: rgba(242, 246, 249, 0.25);
+}
+footer .icons {
+  margin-bottom: 5px;
+}
+footer .icons a {
+  font-size: 0.75em;
+  display: inline-block;
+  margin: 0 5px;
+}
+footer .copyright {
+  font-size: 1em;
+  margin: 10px 0 5px 0;
+}
+footer .elevator {
+  font-size: 0.8em;
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 768px) {
   #what {
-    padding-top: 25vh; }
+    padding-top: 25vh;
+  }
 
   #committees {
     padding-top: 22vh;
-    height: 100vh; } }
+    height: 100vh;
+  }
+}
 @media only screen and (max-width: 736px) {
   #main .logo {
-    height: 5em; }
+    height: 5em;
+  }
 
   #who {
-    padding-top: 35vh; }
+    padding-top: 35vh;
+  }
 
   #what {
-    padding-top: 20vh; }
-    #what .line {
-      padding: 5px 0; }
-      #what .line a {
-        padding: 5px; }
-        #what .line a img.square {
-          height: 100px; }
+    padding-top: 20vh;
+  }
+  #what .line {
+    padding: 5px 0;
+  }
+  #what .line a {
+    padding: 5px;
+  }
+  #what .line a img.square {
+    height: 100px;
+  }
 
   #committees {
-    height: 190vh; } }
+    height: 190vh;
+  }
+}
 @media only screen and (max-width: 667px) {
   #main {
-    padding-top: 30vh; }
+    padding-top: 30vh;
+  }
 
   #who {
-    padding-top: 30vh; }
+    padding-top: 30vh;
+  }
 
   #what {
-    padding-top: 18vh; }
-    #what .title {
-      margin-bottom: 15px; }
-    #what .line > a > img.square {
-      height: 90px; }
+    padding-top: 18vh;
+  }
+  #what .title {
+    margin-bottom: 15px;
+  }
+  #what .line > a > img.square {
+    height: 90px;
+  }
 
   #committees {
-    height: 200vh; }
-    #committees .left {
-      font-size: 1.4em; }
-    #committees .right {
-      width: 50vw; }
-      #committees .right .default {
-        margin-top: 8em; } }
+    height: 200vh;
+  }
+  #committees .left {
+    font-size: 1.4em;
+  }
+  #committees .right {
+    width: 50vw;
+  }
+  #committees .right .default {
+    margin-top: 8em;
+  }
+}
 @media only screen and (max-width: 568px) {
   .title {
-    font-size: 2.5em; }
+    font-size: 2.5em;
+  }
 
   #who .content {
-    font-size: 1.1em; }
+    font-size: 1.1em;
+  }
 
   #what .title {
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+  }
   #what .line > a > img.square {
-    height: 90px; }
+    height: 90px;
+  }
 
   #committees {
-    height: 200vh; }
-    #committees .left {
-      font-size: 1.2em; }
-    #committees .right {
-      width: 50vw; }
-      #committees .right .default {
-        margin-top: 8em; }
-        #committees .right .default .description {
-          font-size: 1.1em; }
-      #committees .right .committee .description {
-        font-size: 1.1em;
-        margin-bottom: 2em; }
-      #committees .right .committee .directors .person .image {
-        height: 125px;
-        width: 125px; }
-      #committees .right .committee .directors .person .name {
-        font-size: .7em; } }
+    height: 200vh;
+  }
+  #committees .left {
+    font-size: 1.2em;
+  }
+  #committees .right {
+    width: 50vw;
+  }
+  #committees .right .default {
+    margin-top: 8em;
+  }
+  #committees .right .default .description {
+    font-size: 1.1em;
+  }
+  #committees .right .committee .description {
+    font-size: 1.1em;
+    margin-bottom: 2em;
+  }
+  #committees .right .committee .directors .person .image {
+    height: 125px;
+    width: 125px;
+  }
+  #committees .right .committee .directors .person .name {
+    font-size: 0.7em;
+  }
+}
 @media only screen and (max-width: 414px) {
   #what {
-    padding-top: 25vh; }
-    #what .title {
-      margin-bottom: 25px; }
+    padding-top: 25vh;
+  }
+  #what .title {
+    margin-bottom: 25px;
+  }
 
   #committees {
-    height: 135vh; }
-    #committees .left {
-      font-size: 1.1em; }
-    #committees .right .default {
-      margin-top: 5em; }
-    #committees .right .committee .description {
-      font-size: 1.1em;
-      margin-bottom: 2em; }
-    #committees .right .committee .directors .person .name {
-      margin-bottom: 1em; } }
+    height: 135vh;
+  }
+  #committees .left {
+    font-size: 1.1em;
+  }
+  #committees .right .default {
+    margin-top: 5em;
+  }
+  #committees .right .committee .description {
+    font-size: 1.1em;
+    margin-bottom: 2em;
+  }
+  #committees .right .committee .directors .person .name {
+    margin-bottom: 1em;
+  }
+}
 @media only screen and (max-width: 375px) {
   #what {
-    padding-top: 25vh; }
-    #what .title {
-      margin-bottom: 25px; }
+    padding-top: 25vh;
+  }
+  #what .title {
+    margin-bottom: 25px;
+  }
 
   #committees {
-    height: 160vh; }
-    #committees .left {
-      font-size: 1.1em; }
-    #committees .right .committee .description {
-      font-size: 1.1em;
-      margin-bottom: 2em; }
-    #committees .right .committee .directors .person .name {
-      margin-bottom: 1em; } }
+    height: 160vh;
+  }
+  #committees .left {
+    font-size: 1.1em;
+  }
+  #committees .right .committee .description {
+    font-size: 1.1em;
+    margin-bottom: 2em;
+  }
+  #committees .right .committee .directors .person .name {
+    margin-bottom: 1em;
+  }
+}
 @media only screen and (max-width: 320px) {
   .title {
-    font-size: 3em; }
+    font-size: 3em;
+  }
 
   #main .subtitle {
-    font-size: 1.25em; }
+    font-size: 1.25em;
+  }
 
   #who .content {
-    font-size: 1.25em; }
+    font-size: 1.25em;
+  }
 
   #what {
-    padding-top: 25vh; }
-    #what .title {
-      margin-bottom: 25px; }
+    padding-top: 25vh;
+  }
+  #what .title {
+    margin-bottom: 25px;
+  }
 
   #committees {
-    height: 190vh; }
-    #committees .left {
-      font-size: 1.1em; }
-    #committees .right .committee .description {
-      font-size: 1.1em;
-      margin-bottom: 2em; }
-    #committees .right .committee .directors .person .name {
-      margin-bottom: 1em; } }
+    height: 190vh;
+  }
+  #committees .left {
+    font-size: 1.1em;
+  }
+  #committees .right .committee .description {
+    font-size: 1.1em;
+    margin-bottom: 2em;
+  }
+  #committees .right .committee .directors .person .name {
+    margin-bottom: 1em;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
