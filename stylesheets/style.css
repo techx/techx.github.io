@@ -235,115 +235,123 @@ nav.navbar.navbar-inverse .navbar-nav li > a:hover {
   transition: background 1s;
 }
 #committees .right .committee .directors .person .image.managing-director {
-  background: url(/img/team/team2019-2020/regular_tiffany.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.managing-director:hover {
-  background: url(/img/team/team2019-2020/funny_tiffany.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.associate-director {
-  background: url(/img/team/team2019-2020/regular_bryan.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.associate-director:hover {
-  background: url(/img/team/team2019-2020/funny_bryan.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.makemit-director {
-  background: url(/img/team/team2020-2021/regular_huimin.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.makemit-director:hover {
-  background: url(/img/team/team2020-2021/funny_huimin.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.xfair-director1 {
-  background: url(/img/team/team2020-2021/regular_varsha.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.xfair-director1:hover {
-  background: url(/img/team/team2020-2021/funny_varsha.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.xfair-director2 {
-  background: url(/img/team/team2020-2021/regular_maggie.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.xfair-director2:hover {
-  background: url(/img/team/team2020-2021/funny_maggie.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.think-director {
-  background: url(/img/team/team2020-2021/regular_tiffanyc.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.think-director:hover {
-  background: url(/img/team/team2020-2021/funny_tiffanyc.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.hackmit-director-1 {
-  background: url(/img/team/team2019-2020/regular_jack.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.hackmit-director-1:hover {
-  background: url(/img/team/team2019-2020/funny_jack.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.hackmit-director-2 {
-  background: url(/img/team/team2020-2021/regular_jamie.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.hackmit-director-2:hover {
-  background: url(/img/team/team2020-2021/funny_jamie.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.projx-director {
-  background: url(/img/team/team2020-2021/regular_valerie.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.projx-director:hover {
-  background: url(/img/team/team2020-2021/funny_valerie.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.marketing-director {
-  background: url(/img/team/team2020-2021/regular_elizabeth.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.marketing-director:hover {
-  background: url(/img/team/team2020-2021/funny_elizabeth.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.devops-director {
   background: url(/img/team/team2020-2021/regular_ivy.jpg);
   background-size: contain;
 }
-#committees .right .committee .directors .person .image.devops-director:hover {
+#committees .right .committee .directors .person .image.managing-director:hover {
   background: url(/img/team/team2020-2021/funny_ivy.jpg);
   background-size: contain;
 }
+#committees .right .committee .directors .person .image.associate-director {
+  background: url(/img/team/team2019-2020/regular_tiffany.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.associate-director:hover {
+  background: url(/img/team/team2019-2020/funny_tiffany.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.makemit-director {
+  background: url(/img/team/team2021-2022/Diego_Normal.JPG);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.makemit-director:hover {
+  background: url(/img/team/team2021-2022/Diego_Fun.JPG);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.makemit-director2 {
+  background: url(/img/team/team2021-2022/Radha_Normal.JPG);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.makemit-director2:hover {
+  background: url(/img/team/team2021-2022/Radha_Fun.JPG);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.xfair-director1 {
+  background: url(/img/team/team2021-2022/Sadhana_Normal.jpeg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.xfair-director1:hover {
+  background: url(/img/team/team2021-2022/Sadhana_Fun.jpeg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.xfair-director2 {
+  background: url(/img/team/team2021-2022/Helen_Normal.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.xfair-director2:hover {
+  background: url(/img/team/team2021-2022/Helen_Fun.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.think-director {
+  background: url(/img/team/team2021-2022/Mulan_Normal.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.think-director:hover {
+  background: url(/img/team/team2021-2022/Mulan_Fun.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.hackmit-director-1 {
+  background: url(/img/team/team2020-2021/regular_jamie.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.hackmit-director-1:hover {
+  background: url(/img/team/team2020-2021/funny_jamie.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.hackmit-director-2 {
+  background: url(/img/team/team2021-2022/Katherine_Normal.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.hackmit-director-2:hover {
+  background: url(/img/team/team2021-2022/Katherine_Fun.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.projx-director {
+  background: url(/img/team/team2021-2022/Sasha_Normal.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.projx-director:hover {
+  background: url(/img/team/team2021-2022/Sasha_Fun.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.marketing-director {
+  background: url(/img/team/team2021-2022/Eva_Normal.PNG);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.marketing-director:hover {
+  background: url(/img/team/team2021-2022/Eva_Fun.PNG);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.devops-director {
+  background: url(/img/team/team2021-2022/Penny_Normal.jpg);
+  background-size: contain;
+}
+#committees .right .committee .directors .person .image.devops-director:hover {
+  background: url(/img/team/team2021-2022/Penny_Funny.png);
+  background-size: contain;
+}
 #committees .right .committee .directors .person .image.fin-director {
-  background: url(/img/team/team2019-2020/regular_jessica_lee.png);
+  background: url(/img/team/team2021-2022/Zoe_Normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.fin-director:hover {
-  background: url(/img/team/team2019-2020/funny_jessica_lee.jpg);
+  background: url(/img/team/team2021-2022/Zoe_Normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.ir-director {
-  background: url(/img/team/team2020-2021/regular_kevin.jpg);
+  background: url(/img/team/team2021-2022/Vicky_Normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.ir-director:hover {
-  background: url(/img/team/team2020-2021/funny_kevin.jpg);
+  background: url(/img/team/team2021-2022/Vicky_Normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.special-x-director {
-  background: url(/img/team/team2020-2021/regular_anton.jpg);
+  background: url(/img/team/team2021-2022/Neha_Normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.special-x-director:hover {
-  background: url(/img/team/team2020-2021/funny_anton.jpg);
+  background: url(/img/team/team2021-2022/Neha_Normal.jpg);
   background-size: contain;
 }
 
