@@ -235,27 +235,27 @@ nav.navbar.navbar-inverse .navbar-nav li > a:hover {
   transition: background 1s;
 }
 #committees .right .committee .directors .person .image.managing-director {
-  background: url(/img/team/team2020-2021/regular_ivy.jpg);
+  background: url(/img/team/team2021-2022/Helen_Normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.managing-director:hover {
-  background: url(/img/team/team2020-2021/funny_ivy.jpg);
+  background: url(/img/team/team2021-2022/Helen_Fun.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.associate-director {
-  background: url(/img/team/team2019-2020/regular_tiffany.jpg);
+  background: url(/img/team/team2022-2023/yi_xie_formal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.associate-director:hover {
-  background: url(/img/team/team2019-2020/funny_tiffany.jpg);
+  background: url(/img/team/team2022-2023/yi_xie_formal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.makemit-director {
-  background: url(/img/team/team2021-2022/Diego_Normal.jpg);
+  background: url(/img/team/team2022-2023/luisa_pan_normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.makemit-director:hover {
-  background: url(/img/team/team2021-2022/Diego_Fun.jpg);
+  background: url(/img/team/team2022-2023/luisa_pan_normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.makemit-director2 {
@@ -267,67 +267,75 @@ nav.navbar.navbar-inverse .navbar-nav li > a:hover {
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.xfair-director1 {
-  background: url(/img/team/team2021-2022/Sadhana_Normal.jpeg);
-  background-size: contain;
+  background: url(/img/team/team2022-2023/emily_zhang_normal.JPG);
+  background-size: cover;
+  /* background-size: contain; */
 }
 #committees .right .committee .directors .person .image.xfair-director1:hover {
-  background: url(/img/team/team2021-2022/Sadhana_Fun.jpeg);
-  background-size: contain;
+  background: url(/img/team/team2022-2023/emily_zhang_normal.JPG);
+  background-size: cover;
+  /* background-size: contain; */
 }
 #committees .right .committee .directors .person .image.xfair-director2 {
-  background: url(/img/team/team2021-2022/Helen_Normal.jpg);
-  background-size: contain;
+  background: url(/img/team/team2022-2023/jeremy_zhou_formal.jpeg);
+  background-size: cover;
+  /* background-size: contain; */
 }
 #committees .right .committee .directors .person .image.xfair-director2:hover {
-  background: url(/img/team/team2021-2022/Helen_Fun.jpg);
-  background-size: contain;
+  background: url(/img/team/team2022-2023/jeremy_zhou_formal.jpeg);
+  background-size: cover;
+  /* background-size: contain; */
 }
 #committees .right .committee .directors .person .image.think-director {
-  background: url(/img/team/team2021-2022/Mulan_Normal.jpg);
+  background: url(/img/team/team2022-2023/alexander_greer_normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.think-director:hover {
-  background: url(/img/team/team2021-2022/Mulan_Fun.jpg);
+  background: url(/img/team/team2022-2023/alexander_greer_normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.hackmit-director-1 {
-  background: url(/img/team/team2020-2021/regular_jamie.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.hackmit-director-1:hover {
-  background: url(/img/team/team2020-2021/funny_jamie.jpg);
-  background-size: contain;
-}
-#committees .right .committee .directors .person .image.hackmit-director-2 {
   background: url(/img/team/team2021-2022/Katherine_Normal.jpg);
   background-size: contain;
 }
-#committees .right .committee .directors .person .image.hackmit-director-2:hover {
+#committees .right .committee .directors .person .image.hackmit-director-1:hover {
   background: url(/img/team/team2021-2022/Katherine_Fun.jpg);
   background-size: contain;
 }
+#committees .right .committee .directors .person .image.hackmit-director-2 {
+  background: url(/img/team/team2022-2023/lili_wilson_normal.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#committees .right .committee .directors .person .image.hackmit-director-2:hover {
+  background: url(/img/team/team2022-2023/lili_wilson_normal.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 #committees .right .committee .directors .person .image.projx-director {
-  background: url(/img/team/team2021-2022/Sasha_Normal.jpg);
+  background: url(/img/team/team2022-2023/brandon_worrell_formal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.projx-director:hover {
-  background: url(/img/team/team2021-2022/Sasha_Fun.jpg);
+  background: url(/img/team/team2022-2023/brandon_worrell_formal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.marketing-director {
-  background: url(/img/team/team2021-2022/Eva_Normal.PNG);
-  background-size: contain;
+  background: url(/img/team/team2022-2023/masarah_formal.jpg);
+  /* background-size: contain; */
+  background-size: cover;
 }
 #committees .right .committee .directors .person .image.marketing-director:hover {
-  background: url(/img/team/team2021-2022/Eva_Fun.PNG);
-  background-size: contain;
+  background: url(/img/team/team2022-2023/masarah_formal.jpg);
+  /* background-size: contain; */
+  background-size: cover;
 }
 #committees .right .committee .directors .person .image.devops-director {
-  background: url(/img/team/team2021-2022/Penny_Normal.jpg);
+  background: url(/img/team/team2022-2023/kosi_nwabueze_formal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.devops-director:hover {
-  background: url(/img/team/team2021-2022/Penny_Funny.png);
+  background: url(/img/team/team2022-2023/kosi_nwabueze_normal.jpg);
   background-size: contain;
 }
 #committees .right .committee .directors .person .image.fin-director {
