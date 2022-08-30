@@ -1,8 +1,10 @@
 $(document).ready(function() {
 
+  // NOTE(kosinw): Removed elevator music because it is very loud and jarring :(
+  // Can add back if really needed
   var elevator = new Elevator({
-    mainAudio: '/sound/elevator.mp3',
-    endAudio: '/sound/ding.mp3',
+    // mainAudio: '/sound/elevator.mp3',
+    // endAudio: '/sound/ding.mp3',
     duration: 7000
   });
 
